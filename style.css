@@ -5,4 +5,12 @@ html, body {
   canvas {
     display: block;
   }
+
+  h1{
+    color:aqua;
+    background-color: cadetblue;
+    font-family: cursive;
+    font-size: medium;
+  }
+
   
