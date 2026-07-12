@@ -2,11 +2,15 @@
 Task 1: Add the setup() function
 */
 
-function draw() {
   //
-  function setup() {}
+  function setup() {
   createCanvas(600, 400);
   background(220);
+  }
+function draw() {
+  fill("gold")
+  circle(80,80,100)
+
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
