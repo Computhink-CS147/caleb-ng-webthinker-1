@@ -11,6 +11,7 @@ function setup() {
 function draw() {
   fill("white")
   ellipse(100, 100, 80, 50);
+  ellipse(200,1)
 
   // Challenge 1: An eye using ellipse() function
 
