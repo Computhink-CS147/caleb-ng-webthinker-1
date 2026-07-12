@@ -3,10 +3,11 @@ Task 1: Add the setup() function
 */
 
   //
-  function setup() {
+function setup() {
   createCanvas(600, 400);
   background(220);
   }
+  
 function draw() {
   fill("gold")
   circle(80,80,100)
