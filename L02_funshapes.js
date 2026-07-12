@@ -12,7 +12,7 @@ function draw() {
   fill("white")
   ellipse(100, 100, 80, 50);
   ellipse(200, 100, 80, 50);
-  circle()
+  circle(100,100,100);
 
   // Challenge 1: An eye using ellipse() function
 
