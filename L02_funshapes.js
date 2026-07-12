@@ -4,7 +4,8 @@ Task 1: Add the setup() function
 
 function draw() {
   //
-  createCanvas(600)
+  createCanvas(600, 400);
+  
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
