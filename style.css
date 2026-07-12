@@ -6,11 +6,11 @@ html, body {
     display: block;
   }
 
-  h1{
+  h2{
     color:aqua;
     background-color: cadetblue;
     font-family: cursive;
-    font-size: ;
+    font-size: large;
   }
 
   
