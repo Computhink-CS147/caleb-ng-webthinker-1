@@ -10,7 +10,7 @@ function setup() {
 
 function draw() {
   fill("white")
-  ellipse(80,80,100)
+  ellipse(100, 100)
 
   // Challenge 1: An eye using ellipse() function
 
