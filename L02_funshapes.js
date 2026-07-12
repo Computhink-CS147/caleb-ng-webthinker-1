@@ -12,6 +12,7 @@ function draw() {
   fill("white")
   ellipse(100, 100, 80, 50);
   ellipse(200, 100, 80, 50);
+  CSSNumericValue()
 
   // Challenge 1: An eye using ellipse() function
 
