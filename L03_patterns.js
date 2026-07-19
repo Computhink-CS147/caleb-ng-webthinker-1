@@ -25,4 +25,4 @@ for(let num=1; num<9; num++) {
 
   // Task 4: Grid of Circles
 }
-print(width)
+print(width);
