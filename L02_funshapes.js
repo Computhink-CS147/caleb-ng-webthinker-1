@@ -9,7 +9,7 @@ function setup() {
   }
 
 function draw() {
-  fill("white")
+  fill("red")
   ellipse(55, 100, 75, 100);
   rect(5, 150, 100, 25);
   ellipse(55, 100, 20, 20);
