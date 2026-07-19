@@ -13,7 +13,7 @@ function draw() {
   ellipse(100, 100, 80, 50);
   ellipse(200, 100, 80, 50);
   rect(50, 50, 100, 75);
-  triangle(20, 75, 58, 20, 86, 75);
+  triangle(20, 75, 58, 30, 86, 75);
 
 
   // Challenge 1: An eye using ellipse() function
