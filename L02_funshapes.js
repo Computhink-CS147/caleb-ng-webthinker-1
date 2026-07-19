@@ -11,7 +11,7 @@ function setup() {
 function draw() {
   fill("white")
   ellipse(100, 100, 80, 50);
-  ellipse(55, 100, 60, 100);
+  ellipse(55, 100, 75, 100);
   rect(50, 50, 100, 25);
   triangle(20,75 ,58 ,20 ,86 ,75 );
 
