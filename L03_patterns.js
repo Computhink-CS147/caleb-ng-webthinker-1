@@ -12,6 +12,7 @@ function draw() {
   // Recap 1: Repeating Circles
 let circleDiameter= 50;
 let circleY=50;
+for(let num=1; num<9; num++) {}
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
