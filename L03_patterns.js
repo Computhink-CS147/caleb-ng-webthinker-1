@@ -16,6 +16,7 @@ for(let num=1; num<9; num++) {
   circle(50*num,circleY*num,circleDiameter);
 }
   // Task 1: Colour Gradient
+  
 
   // Task 2: Colour Loop
 
