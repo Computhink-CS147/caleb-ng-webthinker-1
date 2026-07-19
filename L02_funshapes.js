@@ -5,7 +5,7 @@ Task 1: Add the setup() function
   //
 function setup() {
   createCanvas(400,800 );
-  background('');
+  background('gray');
   }
 
 function draw() {
