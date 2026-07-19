@@ -13,6 +13,7 @@ function draw() {
   ellipse(55, 100, 75, 100);
   fill("blue")
   rect(5, 150, 100, 25);
+  fill("yellow")
   ellipse(55, 100, 20, 20);
   triangle(20,75 ,58 ,20 ,86 ,75 );
 
