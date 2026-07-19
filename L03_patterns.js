@@ -13,7 +13,7 @@ function draw() {
 let circleDiameter= 50;
 let circleY=50;
 for(let num=1; num<9; num++) {
-  fill(num*5)
+  fill(num*50,0)
   circle(50*num,circleY*num,circleDiameter);
 }
   // Task 1: Colour Gradient
