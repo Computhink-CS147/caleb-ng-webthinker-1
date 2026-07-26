@@ -21,7 +21,7 @@ let circleY=50;
 let circleX=350;
 for(let num=1; num<6; num++) {
   fill(num*50,150,100)
-  circle(-50*num,circleX*num,circleDiameter);
+  circle(50*num,circleX*num,circleDiameter);
 }
 }
 print(width);
