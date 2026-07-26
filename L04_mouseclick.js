@@ -8,9 +8,9 @@ function setup() {
 let shapeColor="aqamarime"
 Fill(shapeColor);
 nostroke
-function mousepressed (){
+function mousePressed (){
     shapeColor="white"
 }
-function mousemoved (){
+function mouseMoved (){
     circle(mouseY, mouseY, 20);
 }
