@@ -10,5 +10,5 @@ function mousepressed (){
     shapeColor="white"
 }
 function mousemoved (){
-    CSSNumericValue(mouseY, mouseY, 20);
+    circle(mouseY, mouseY, 20);
 }
