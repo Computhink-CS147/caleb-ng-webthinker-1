@@ -2,7 +2,7 @@
 
 function setup() {
     createCanvas(600, 800);
-    background("shiny");
+    background("uk");
 }
 
 function draw() {
