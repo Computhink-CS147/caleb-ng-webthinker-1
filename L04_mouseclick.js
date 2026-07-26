@@ -2,7 +2,7 @@
 
 function setup() {
     createCanvas(600, 800);
-    background("Black");
+    background("red");
 }
 
 function draw() {
