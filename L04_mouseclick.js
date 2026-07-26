@@ -9,4 +9,6 @@ let shapeColor="aqamarime"
 function mousepressed (){
     shapeColor="white"
 }
-function mousemoved ()
+function mousemoved (){
+    CSSNumericValue(mousex)
+}
