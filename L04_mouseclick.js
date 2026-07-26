@@ -11,6 +11,6 @@ nostroke
 function mousePressed (){
     shapeColor="white"
 }
-function mouseMoved (){
-    circle(mouseY, mouseY, 20);
+function mouseDragged (){
+    circle(mouseX, mouseY, 20);
 }
