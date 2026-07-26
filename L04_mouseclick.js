@@ -6,6 +6,7 @@ function setup() {
 }
   
 let shapeColor="aqamarime"
+fill
 function mousepressed (){
     shapeColor="white"
 }
