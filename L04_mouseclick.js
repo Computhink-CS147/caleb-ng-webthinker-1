@@ -5,6 +5,6 @@ function setup() {
     background("200");
 }
 
-function draw () {
+function draw() {
     triangle(20,80,60,30,70,80);
 }
