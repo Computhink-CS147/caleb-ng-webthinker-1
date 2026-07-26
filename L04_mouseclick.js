@@ -2,7 +2,7 @@
 
 function setup() {
     createCanvas(600, 800);
-    background("uk");
+    background("aquamarine");
 }
 
 function draw() {
