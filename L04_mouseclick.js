@@ -5,6 +5,4 @@ function setup() {
     background("aqua");
 }
   
-function draw() {
-  circle(275,200,100);
-}
+let shapeColor=""
