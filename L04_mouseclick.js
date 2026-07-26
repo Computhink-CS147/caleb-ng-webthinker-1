@@ -9,3 +9,4 @@ let shapeColor="aqamarime"
 function mousepressed (){
     shapeColor="white"
 }
+function mousemoved ()
