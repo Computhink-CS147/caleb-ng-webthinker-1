@@ -13,8 +13,8 @@ function setup() {
 function draw() {
   circle(100,200,75);
   circle(100,200,225);
-  circle(100,200,375);
-  circle(100,200,525);
+  circle(,200,375);
+  circle(525,200,100);
   // Recap 1: Repeating Circles
 let circleDiameter= 50;
 let circleY=50;
