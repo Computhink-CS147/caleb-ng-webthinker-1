@@ -5,4 +5,4 @@ function setup() {
     background("aqua");
 }
   
-let shapeColor=""
+let shapeColor="Aquamarime"
