@@ -5,5 +5,5 @@ let showcircle=false
 
 function draw() {
     background=("skyblue");
-    
+    if(showCircle) {}
 }
