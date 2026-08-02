@@ -15,11 +15,12 @@ function draw() {
     circle(width/2, height/2, size)
     }
     if(showRect) {
-        fill()
+        fill("red")
         rect(50,50,100,75);
 
     }
     if(showTri){
+        fil
         triangle(20,75,58,20,86,75);
     }
 }
