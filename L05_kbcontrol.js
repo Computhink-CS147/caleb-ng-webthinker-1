@@ -24,11 +24,11 @@ function keyPressed(){
         showCircle=!showCircle;
     }
     if(key==="r"){
-        showRect
+        
         showRect=!showRect;
     }
     if(key==="t"){
-        showTri
+
         showTri=!showRect;
     }
 }
