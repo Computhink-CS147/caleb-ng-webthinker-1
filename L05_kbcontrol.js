@@ -1,4 +1,6 @@
 let size=5
 let colour="blue"
 
-f
+function setup() {
+    
+}
