@@ -27,9 +27,9 @@ function draw() {
         triangle(20,75,58,20,86,75);
     }
 }
-
+print(key)
 function keyPressed(){
-    
+
     if (key==='c'){
         
         showCircle=!showCircle;
