@@ -27,7 +27,8 @@ function draw() {
         triangle(20,75,58,20,86,75);
     }
 }
-print(key)
+print(key);
+print
 function keyPressed(){
 
     if (key==='c'){
