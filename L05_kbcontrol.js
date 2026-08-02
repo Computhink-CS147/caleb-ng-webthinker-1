@@ -6,6 +6,6 @@ let showcircle=false
 function draw() {
     background=("skyblue");
     if(showCircle) {
-    circle(width/2)
+    circle(width/2, height/2, size)
     }
 }
