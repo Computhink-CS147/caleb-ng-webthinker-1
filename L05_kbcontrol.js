@@ -25,6 +25,7 @@ function keyPressed(){
     }
     if(key==="r"){
         showRect
-        show
+        showRect=!showRect;
+        
     }
 }
