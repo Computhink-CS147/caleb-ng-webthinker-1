@@ -17,3 +17,4 @@ function mouseDragged() {
     size=size +0.5;
 }
 
+let size=50;
