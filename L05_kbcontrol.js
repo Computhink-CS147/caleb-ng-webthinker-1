@@ -37,6 +37,6 @@ function keyPressed(){
     }
     if(key==="t"){
 
-        showTri=!showRect;
+        showTri=!showTri;
     }
 }
