@@ -10,7 +10,7 @@ function setup () {
 
 
 function draw() {
-    background=("skyblue");
+    background=("white");
     if(showCircle) {
     circle(width/2, height/2, size)
     }
