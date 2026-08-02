@@ -13,7 +13,7 @@ function draw() {
     background=("white");
     if(showCircle) {
         fill("white")
-    circle(width/2, height/2, size)
+    circle(200, , 5)
     }
     if(showRect) {
         fill("red")
