@@ -1,6 +1,6 @@
 function setup() {
     createCanvas(600, 800);
-    background("aqua");
+    background("white");
 }
   
 let shapeColor="aquamarime"
