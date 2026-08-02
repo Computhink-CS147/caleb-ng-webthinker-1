@@ -19,5 +19,7 @@ function draw() {
 }
 
 function keyPressed(){
-    if (key=== 'c'){}
+    if (key=== 'c'){
+        
+    }
 }
