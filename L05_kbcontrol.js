@@ -35,6 +35,8 @@ function draw() {
     }
     if(showRed){
         fill("blue")
+        
+    ellipse(200,200 ,200, 200)
     }
 }
 
