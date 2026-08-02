@@ -3,4 +3,6 @@ let colour=blue
 let showcircle=false
 
 
-function draw()
+function draw() {
+    background=skyblu""
+}
