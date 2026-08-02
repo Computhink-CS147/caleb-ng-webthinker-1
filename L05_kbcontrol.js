@@ -35,7 +35,7 @@ function keyPressed(){
     }
     if(key==="r"){
         
-        showRect=showRect;
+        showRect=!showRect;
     }
     if(key==="t"){
 
