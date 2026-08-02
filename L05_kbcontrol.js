@@ -1,2 +1,2 @@
 let size=5
-let 
+let color="b"
