@@ -3,6 +3,8 @@ let colour=("blue")
 let showCircle=false
 let showRect=false
 let showTri=false
+let showBlak=false
+let showRed=false
 
 
 function setup () {
@@ -26,11 +28,16 @@ function draw() {
         fill("blue")
         triangle(20,75,58,20,86,75);
     }
+    if(showBlak){
+        fill("red")
+        
+    ellipse(200,200 ,200, 200)
+    }
+    
 }
 
 function keyPressed(){
-    print(key);
-print(keycode);
+
     if (key==='c'){
         
         showCircle=!showCircle;
@@ -42,6 +49,10 @@ print(keycode);
     if(key==="t"){
 
         showTri=!showTri;
+    }
+    if (key==='UP_ARROw'){
+        
+        showBlak=!showBlak;
     }
 }
 
