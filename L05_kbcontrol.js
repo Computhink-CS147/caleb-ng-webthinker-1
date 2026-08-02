@@ -58,6 +58,8 @@ function keyPressed(){
         
         showBlak=!showBlak;
     }
-    if (key==='DOWN_ARROW')
+    if (key==='DOWN_ARROW'){
+        showRed=!show
+    }
 }
 
