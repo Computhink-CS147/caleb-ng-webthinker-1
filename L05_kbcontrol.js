@@ -29,6 +29,7 @@ function draw() {
 }
 
 function keyPressed(){
+    
     if (key==='c'){
         
         showCircle=!showCircle;
