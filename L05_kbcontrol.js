@@ -2,7 +2,7 @@ let size=250
 let colour=blue
 let showcircle=false
 let showrect=false
-let showtri=tri
+let showtri=false
 
 function draw() {
     background=("skyblue");
