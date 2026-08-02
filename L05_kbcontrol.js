@@ -11,18 +11,6 @@ function setup () {
 
 function draw() {
     background=("white");
-      if (key==='c'){
-        
-        showCircle=!showCircle;
-    }
-    if(key==="r"){
-        
-        showRect=!showRect;
-    }
-    if(key==="t"){
-
-        showTri=!showTri;
-    }
     if(showCircle) {
         fill("white")
     ellipse(200,200 ,200, 200)
@@ -39,5 +27,16 @@ function draw() {
 }
 
 function keyPressed(){
-  
+    if (key==='c'){
+        
+        showCircle=!showCircle;
+    }
+    if(key==="r"){
+        
+        showRect=!showRect;
+    }
+    if(key==="t"){
+
+        showTri=!showTri;
+    }
 }
