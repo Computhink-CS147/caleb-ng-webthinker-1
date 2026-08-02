@@ -21,5 +21,5 @@ let size=50;
 let colour=blue
 function setup (){
     createCanvas(600,600)
-    background("s")
+    background("skyblue")
 }
