@@ -7,4 +7,7 @@ function setup() {
     noStroke();
 }
 
-function mousePressed() 
+function mousePressed() {
+    size=5
+    clour
+}
