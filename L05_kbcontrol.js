@@ -28,6 +28,7 @@ function keyPressed(){
         showRect=!showRect;
     }
     if(key==="t"){
-        
+        showTri
+        showTri=!!
     }
 }
