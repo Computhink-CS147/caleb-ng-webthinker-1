@@ -15,6 +15,7 @@ function draw() {
     circle(width/2, height/2, size)
     }
     if(showRect) {
+        fill()
         rect(50,50,100,75);
 
     }
