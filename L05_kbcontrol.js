@@ -2,7 +2,7 @@ let size=5;
 let colour="blue";
 
 function setup() {
-    createCanvas(1000,1000);
+    createCanvas(600,2000);
     background("skyblue");
     noStroke();
 }
