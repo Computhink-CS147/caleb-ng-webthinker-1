@@ -33,7 +33,7 @@ function draw() {
         
     ellipse(200,200 ,200, 200)
     }
-    
+    if(showRed){}
 }
 
 function keyPressed(){
