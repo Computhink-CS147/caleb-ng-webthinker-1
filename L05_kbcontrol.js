@@ -9,5 +9,5 @@ function setup() {
 
 function mousePressed() {
     size=5
-    colour=color
+    colour=color(random(0,255))
 }
