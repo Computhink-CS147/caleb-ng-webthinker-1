@@ -16,10 +16,3 @@ function mouseDragged() {
     circle(mouseX, mouseY, size);
     size=size +0.5;
 }
-
-let size=50;
-let colour=blue
-function setup (){
-    createCanvas(600,600)
-    background("skyblue")
-}
