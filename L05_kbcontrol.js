@@ -54,7 +54,7 @@ function keyPressed(){
 
         showTri=!showTri;
     }
-    if (key==='UP_ARROw'){
+    if (key==="UP_ARROw"){
         
         showBlak=!showBlak;
     }
