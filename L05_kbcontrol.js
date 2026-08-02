@@ -13,5 +13,5 @@ function mousePressed() {
 }
 function mouseDragged() {
     FileList(colour);
-    CSSNumericValue(mouseX, )
+    CSSNumericValue(mouseX, mouseY, )
 }
