@@ -18,4 +18,4 @@ function mouseDragged() {
 }
 
 let size=50;
-let col
+let colour
