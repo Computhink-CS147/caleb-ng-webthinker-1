@@ -7,7 +7,7 @@ let shapeColor="aquamarime"
 Fill(shapeColor);
 noStroke();
 function mousePressed (){
-let    shapeColor="blue"
+let shapeColor="blue"
 }
 function mouseDragged (){
     circle(mouseX, mouseY, 20);
