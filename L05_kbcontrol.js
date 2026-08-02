@@ -12,7 +12,7 @@ function mousePressed() {
     colour=color(random(0,255), random(0,255),random(0,255))
 }
 function mouseDragged() {
-    Fi(colour);
+    fill(colour);
     circle(mouseX, mouseY, size);
     size=size +0.5
     ;
