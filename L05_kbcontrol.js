@@ -6,3 +6,5 @@ function setup() {
     background("skyblue")
     noStroke();
 }
+
+function mousePressed() 
