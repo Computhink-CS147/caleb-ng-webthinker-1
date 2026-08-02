@@ -3,6 +3,8 @@ let colour=("blue")
 let showCircle=false
 let showRect=false
 let showTri=false
+
+
 function setup () {
     createCanvas(600,600);
     background("skyblue")
