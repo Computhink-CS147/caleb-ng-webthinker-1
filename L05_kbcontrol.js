@@ -23,4 +23,5 @@ function keyPressed(){
         showCircle
         showCircle=!showCircle;
     }
+    if(key==="r"){}
 }
