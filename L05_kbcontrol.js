@@ -23,5 +23,8 @@ function keyPressed(){
         showCircle
         showCircle=!showCircle;
     }
-    if(key==="r"){}
+    if(key==="r"){
+        showRect
+        show
+    }
 }
