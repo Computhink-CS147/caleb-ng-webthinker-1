@@ -2,5 +2,5 @@ let size=5
 let colour="blue"
 
 function setup() {
-    createcanvas 
+    createcanvas(600.800)
 }
