@@ -4,5 +4,5 @@ let showcircle=false
 
 
 function draw() {
-    background=skyblu""
+    background=("skyblue")
 }
