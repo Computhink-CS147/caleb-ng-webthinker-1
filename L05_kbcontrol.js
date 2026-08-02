@@ -2,7 +2,7 @@ let size=5;
 let colour="blue";
 
 function setup() {
-    createCanvas(600,2000);
+    createCanvas(2000,2000);
     background("skyblue");
     noStroke();
 }
@@ -16,3 +16,4 @@ function mouseDragged() {
     circle(mouseX, mouseY, size);
     size=size +0.5;
 }
+
