@@ -28,7 +28,7 @@ function draw() {
     }
 }
 print(key);
-print
+print(keycode);
 function keyPressed(){
 
     if (key==='c'){
