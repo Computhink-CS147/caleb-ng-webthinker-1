@@ -9,11 +9,11 @@ function draw() {
     if(showCircle) {
     circle(width/2, height/2, size)
     }
-    if(showrect) {
+    if(showRect) {
         rect(50,50,100,75);
 
     }
-    if(showtri){
+    if(showTri){
         triangle(20,75,58,20,86,75);
     }
 }
