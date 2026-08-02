@@ -5,7 +5,7 @@ let showRect=false
 let showTri=false
 function setup () {
     createCanvas(600,600);
-   background=("skyblue");
+    background()
 }
 
 
