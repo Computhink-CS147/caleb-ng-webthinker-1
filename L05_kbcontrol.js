@@ -12,6 +12,7 @@ function setup () {
 function draw() {
     background=("white");
     if(showCircle) {
+        
     circle(width/2, height/2, size)
     }
     if(showRect) {
@@ -20,7 +21,7 @@ function draw() {
 
     }
     if(showTri){
-        fil
+        fill("blue")
         triangle(20,75,58,20,86,75);
     }
 }
