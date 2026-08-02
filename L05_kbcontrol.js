@@ -3,7 +3,7 @@ function setup() {
     background("aqua");
 }
   
-let shapeColor="aqamarime"
+let shapeColor="aquamarime"
 Fill(shapeColor);
 noStroke();
 function mousePressed (){
