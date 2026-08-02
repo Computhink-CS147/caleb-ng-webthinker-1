@@ -3,5 +3,6 @@ let colour="blue"
 
 function setup() {
     createcanvas(600,800);
-    background
+    background("skyblue")
+    
 }
