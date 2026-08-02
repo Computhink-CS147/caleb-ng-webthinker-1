@@ -1,2 +1,4 @@
 let size=5
-let color="blue"
+let colour="blue"
+
+f
