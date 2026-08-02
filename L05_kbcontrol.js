@@ -13,7 +13,7 @@ function draw() {
     background=("white");
     if(showCircle) {
         fill("white")
-    circle(200,100 ,80, 50)
+    ellipse(200,100 ,80, 50)
     }
     if(showRect) {
         fill("red")
