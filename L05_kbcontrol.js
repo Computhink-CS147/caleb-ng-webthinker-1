@@ -29,7 +29,8 @@ function draw() {
 }
 
 function keyPressed(){
-    
+    print(key);
+print(keycode);
     if (key==='c'){
         
         showCircle=!showCircle;
