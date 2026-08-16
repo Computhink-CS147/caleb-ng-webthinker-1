@@ -2,5 +2,5 @@
 let bgm;
 let pico;
 function preload() {
-
+p
 }
