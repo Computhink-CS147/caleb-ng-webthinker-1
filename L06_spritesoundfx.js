@@ -8,5 +8,5 @@ pico = loadimage("assets/pico-a.png");
 
 function setup(){
 createCanvas(350,250);
-
+color
 }
