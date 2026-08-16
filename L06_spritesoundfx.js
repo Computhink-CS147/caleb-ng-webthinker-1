@@ -5,3 +5,7 @@ let xpos;
 function preload() {
 pico = loadimage("assets/pico-a.png");
 }
+
+function setup(){
+    createcanvas
+}
