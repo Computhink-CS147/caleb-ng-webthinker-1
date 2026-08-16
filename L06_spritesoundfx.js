@@ -7,5 +7,5 @@ pico = loadimage("assets/pico-a.png");
 }
 
 function setup(){
-createCanvas
+createCanvas(350,250)
 }
