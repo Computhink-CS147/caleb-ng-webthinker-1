@@ -1,65 +1,65 @@
-let size=250
-let colour=("blue")
-let showCircle=false
-let showRect=false
-let showTri=false
-let showBlak=false
-let showRed=false
+// let size=250
+// let colour=("blue")
+// let showCircle=false
+// let showRect=false
+// let showTri=false
+// let showBlak=false
+// let showRed=false
 
 
-function setup () {
-    createCanvas(600,600);
-    background("skyblue")
-}
+// function setup () {
+//     createCanvas(600,600);
+//     background("skyblue")
+// }
 
 
-function draw() {
-    background=("white");
-    if(showCircle) {
-        fill("white")
-    ellipse(200,200 ,200, 200)
-    }
-    if(showRect) {
-        fill("red")
-        rect(50,50,100,75);
+// function draw() {
+//     background=("white");
+//     if(showCircle) {
+//         fill("white")
+//     ellipse(200,200 ,200, 200)
+//     }
+//     if(showRect) {
+//         fill("red")
+//         rect(50,50,100,75);
 
-    }
-    if(showTri){
-        fill("blue")
-        triangle(20,75,58,20,86,75);
-    }
-    if(showBlak){
-        fill("red")
+//     }
+//     if(showTri){
+//         fill("blue")
+//         triangle(20,75,58,20,86,75);
+//     }
+//     if(showBlak){
+//         fill("red")
         
-    ellipse(200,200 ,200, 200)
-    }
-    if(showRed){
-        fill("blue")
+//     ellipse(200,200 ,200, 200)
+//     }
+//     if(showRed){
+//         fill("blue")
         
-    ellipse(200,200 ,200, 200)
-    }
-}
+//     ellipse(200,200 ,200, 200)
+//     }
+// }
 
-function keyPressed(){
+// function keyPressed(){
 
-    if (key==='c'){
+//     if (key==='c'){
         
-        showCircle=!showCircle;
-    }
-    if(key==="r"){
+//         showCircle=!showCircle;
+//     }
+//     if(key==="r"){
         
-        showRect=!showRect;
-    }
-    if(key==="t"){
+//         showRect=!showRect;
+//     }
+//     if(key==="t"){
 
-        showTri=!showTri;
-    }
-    if (key===UP_ARROW){
+//         showTri=!showTri;
+//     }
+//     if (key===UP_ARROW){
         
-        showBlak=!showBlak;
-    }
-    if (key===DOWN_ARROW){
-        showRed=!showRed;
-    }
-}
+//         showBlak=!showBlak;
+//     }
+//     if (key===DOWN_ARROW){
+//         showRed=!showRed;
+//     }
+// }
 
