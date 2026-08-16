@@ -3,5 +3,5 @@ let bgm;
 let pico;
 let xpos;
 function preload() {
-pico = 
+pico = loadimage("assets/pico-a.png")
 }
