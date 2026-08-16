@@ -1,5 +1,6 @@
 // write your codes here
-let bgm
+let bgm;
+let pico;
 function preload() {
 
 }
