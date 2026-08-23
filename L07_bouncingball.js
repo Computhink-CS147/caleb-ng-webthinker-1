@@ -33,7 +33,7 @@ function draw(){
     
     if(ballY > height) {
         ballSpeedY=-1*ballSpeedY
-        
+        fill( rand)
     }
 
     
