@@ -7,6 +7,7 @@ let ballSpeedY=0;
 
 function setup() {
 createCanvas(600,800);
+color=blue
 }
 
 function draw(){
