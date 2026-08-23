@@ -10,4 +10,6 @@ createCanvas(600,800);
 
 }
 
-function draw(){{}
+function draw(){
+    background(255)
+}
