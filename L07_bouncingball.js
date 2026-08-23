@@ -5,7 +5,7 @@ let ballY=0;
 let ballSpeedX=0;
 let ballSpeedY=0;
 
-function setup(){
+function setup() {
 createCanvas(600,800);
 }
 
