@@ -12,5 +12,6 @@ createCanvas(600,800);
 
 function draw(){
     background(255);
+    fill(0)
     
 }
