@@ -1,2 +1,2 @@
 // write your codes here
-let ball
+let ballSixe =40;
