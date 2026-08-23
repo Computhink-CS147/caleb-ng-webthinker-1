@@ -16,5 +16,5 @@ ballY=height/2
 function draw(){
     background("red");
     fill(0)
-    circle()
+    ellipse(200,200)
 }
