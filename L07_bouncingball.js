@@ -17,4 +17,6 @@ function draw(){
     background("red");
     fill(0);
     circle(ballX,ballY,ballSize);
+
+    ballX=
 }
