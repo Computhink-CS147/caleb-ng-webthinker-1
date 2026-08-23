@@ -10,6 +10,4 @@ createCanvas(600,800);
 
 }
 
-function draw(){
-    circle(20,20);
-}
+function draw(){{}
