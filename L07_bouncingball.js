@@ -29,7 +29,6 @@ function draw(){
 
     
     if(ballX < 0) {
-         fill( random(0,255),0,random(0,255),0,random(10,55) );
         ballSpeedX=-1*ballSpeedX
     }
 
