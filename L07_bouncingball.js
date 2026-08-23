@@ -40,8 +40,7 @@ function draw(){
     
     if(ballY < 0) {
         ballSpeedY=-1*ballSpeedY
-        fill(num*50,150,100)
-  circle(50*num,circleY*num,circleDiameter);
+        
     }
 
 }
