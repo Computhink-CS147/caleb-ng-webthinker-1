@@ -36,7 +36,7 @@ function draw(){
     }
 
     
-    if(ballX < 0) {
+    if(ballY < 0) {
         ballSpeedX=-1*ballSpeedX
     }
 
