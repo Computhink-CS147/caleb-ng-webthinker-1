@@ -19,5 +19,6 @@ function draw() {
      text("♪♪♪",165,ypos+30);
     ypos -= 0.67;
 
+    lineY=0
     
 }
