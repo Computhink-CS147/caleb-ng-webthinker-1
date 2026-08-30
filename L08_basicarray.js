@@ -1,4 +1,5 @@
-// write your codes here
+let ypos
+
 function setup() {
     createCanvas(400,600);
     background(220);
