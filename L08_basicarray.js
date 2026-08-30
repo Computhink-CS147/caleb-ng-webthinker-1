@@ -9,6 +9,7 @@ function setup() {
     storyText[0]="goon goon goon"
     storyText[1]="6767"
     storyText[2]="lick lick lick"
+    print(storyText)
 }
 
 function draw() {
