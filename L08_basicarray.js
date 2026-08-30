@@ -31,8 +31,8 @@ function draw() {
        text("9/11 OSAMA IS RELATED TO OBAMA",75,ypos+230);
        text("HIT**R DEFINETLY HAD A MICROP***S",75,ypos+260);
        text("TO EXCITE MYSELF IS SHOVE SOME HOT WHEELS UP MY A**S",75,ypos+290);
-       text("C**SHOT SO POWERFUL IT REACHED VENUS",75,ypos+110);
-       text("KAI CENAT IS A PERFORMATIVE DINGUUS",75,ypos+110);
+       text("C**SHOT SO POWERFUL IT REACHED VENUS",75,ypos+310);
+       text("KAI CENAT IS A PERFORMATIVE DINGUUS",75,ypos+330);
 
 
        
