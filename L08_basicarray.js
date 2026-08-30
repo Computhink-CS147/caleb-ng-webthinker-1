@@ -28,7 +28,9 @@ function draw() {
        text("JEFFERY EPSTEIN TOUCHED ME WHEN I WAS A TEEN",75,ypos+110);
        text("WHEN I MET MY UNCLE S**T GOT FREAKY",75,ypos+110);
        text("TURNS OUT ME N HIM ARE MAD ZESTY",75,ypos+110);
+       text("9/11 OSAMA IS RELATED TO OBAMA",75,ypos+110);
        text("IM WEIRD AS",75,ypos+110);
+
 
        
        
