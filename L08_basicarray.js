@@ -26,7 +26,7 @@ function draw() {
        text("ME N P DIDDY HAVE A SNEAKY SNEAKY LINK",75,ypos+110);
        text("HE SHOWED ME HIS SUPER BIG DING A LING",75,ypos+110);
        text("JEFFERY EPSTEIN TOUCHED ME WHEN I WAS A TEEN",75,ypos+110);
-       text("IM WEIRD AS",75,ypos+110);
+       text("WHEN I MET MY UNCLE",75,ypos+110);
        
 
        
