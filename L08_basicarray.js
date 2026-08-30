@@ -9,3 +9,5 @@ function draw() {
     textSize(18);
     text("PSLE",100,ypos);
 }
+
+ypos=ypos
