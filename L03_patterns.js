@@ -14,10 +14,9 @@ let circleDiameter= 50;
 let circleY=50;
 for(let num=1; num<9; num++) {
   fill(num*50,0,255)
-  rect(50*num,rectY*num,rect)
+  circle(50*num,circleY*num,circleDiameter);
 }
-  // Task 1: Colour Gradient
-
+  // Task 1: Colour Gradien
 
   // Task 2: Colour Loop
 
