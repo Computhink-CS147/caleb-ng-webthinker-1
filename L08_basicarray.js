@@ -7,7 +7,7 @@ function setup() {
     background(220);
     ypos= height;
     storyText[0]="goon goon goon"
-    sto
+    storyText[1]=
 }
 
 function draw() {
