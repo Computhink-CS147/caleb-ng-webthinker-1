@@ -6,7 +6,8 @@ function setup() {
     createCanvas(400,600);
     background(220);
     ypos= height;
-    storyText[0]="go"
+    storyText[0]="goon goon goon"
+    sto
 }
 
 function draw() {
