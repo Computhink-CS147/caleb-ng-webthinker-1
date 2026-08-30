@@ -9,7 +9,7 @@ function setup() {
 function draw() {
     background(220);
     textSize(18);
-    text("PSLE",165,ypos);
-     text("PSLE",165,ypos+30);
+    text("Hyperbaiter",165,ypos);
+     text("",165,ypos+30);
     ypos -= 0.67;
 }
