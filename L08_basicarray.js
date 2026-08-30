@@ -34,7 +34,8 @@ function draw() {
        text("C**SHOT SO POWERFUL IT REACHED VENUS",75,ypos+360);
        text("KAI CENAT IS A PERFORMATIVE DINGUUS",75,ypos+390);
        text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",165,ypos+500);
-        text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",165,ypos+410);
+        text("WHAT HAPPENED IT IS THE NEW WAVE",165,ypos+410);
+         text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",165,ypos+410);
 
 
        
