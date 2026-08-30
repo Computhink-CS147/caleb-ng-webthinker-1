@@ -53,5 +53,5 @@ function draw() {
 
        
 
-    ypos -=  0.0;
+    ypos -=  0.0080;
 }
