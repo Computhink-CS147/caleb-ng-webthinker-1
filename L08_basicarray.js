@@ -17,5 +17,6 @@ function draw() {
     textSize(18);
     text("Hyperbaiter",135,ypos);
      text("♪♪♪",165,ypos+30);
+     text("THE ROCK ON MY A** MADE ME DISABLED")
     ypos -= 0.67;
 }
