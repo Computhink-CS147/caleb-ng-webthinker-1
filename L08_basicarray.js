@@ -26,9 +26,9 @@ function draw() {
        text("ME N P DIDDY HAVE A SNEAKY SNEAKY LINK",75,ypos+160);
        text("HE SHOWED ME HIS SUPER BIG DING A LING",75,ypos+190);
        text("JEFFERY EPSTEIN TOUCHED ME WHEN I WAS A TEEN",75,ypos+210);
-       text("WHEN I MET MY UNCLE S**T GOT FREAKY",75,ypos+210);
-       text("TURNS OUT ME N HIM ARE MAD ZESTY",75,ypos+230);
-       text("9/11 OSAMA IS RELATED TO OBAMA",75,ypos+260);
+       text("WHEN I MET MY UNCLE S**T GOT FREAKY",75,ypos+230);
+       text("TURNS OUT ME N HIM ARE MAD ZESTY",75,ypos+260);
+       text("9/11 OSAMA IS RELATED TO OBAMA",75,ypos+290);
        text("HIT**R DEFINETLY HAD A MICROP***S",75,ypos+310);
        text("TO EXCITE MYSELF IS SHOVE SOME HOT WHEELS UP MY A**S",75,ypos+330);
        text("C**SHOT SO POWERFUL IT REACHED VENUS",75,ypos+360);
