@@ -17,11 +17,6 @@ function draw() {
     textSize(18);
     text("Hyperbaiter",135,ypos);
      text("♪♪♪",165,ypos+30);
-    
+     text("THE ROCK ON MY A** MADE ME DISABLED",135,ypos+20);
     ypos -= 0.67;
-
-    lineY=0
-
-//
-for(let count=0; count>storyText);
 }
