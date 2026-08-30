@@ -9,6 +9,6 @@ function setup() {
 function draw() {
     background(220);
     textSize(18);
-    text("PSLE",100,ypos);
+    text("PSLE",50,ypos);
     ypos -= 0.67;
 }
