@@ -38,8 +38,8 @@ function draw() {
          text("THEN HE LOST ALL HIS MONEY THE VERY NEXT DAY",175,ypos+540);
           text("THEN I LOST 5K ON A POKER PLAY",75,ypos+560);
            text("THEN MY CRUSH TURNED DOWN MY DATE",75,ypos+580);
-           text("NOW ITS TIME TO TURN GAY",164,ypos+600);
-            text("N BE A FEMBOY ON ONLYFANSSSSSS",165,ypos+620);
+           text("NOW ITS TIME TO TURN GAY",75,ypos+600);
+            text("N BE A FEMBOY ON ONLYFANSSSSSS",75,ypos+620);
 
          text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",165,ypos+700);
           text("THE END",165,ypos+800);
