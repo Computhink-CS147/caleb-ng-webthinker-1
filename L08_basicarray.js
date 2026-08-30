@@ -32,6 +32,8 @@ function draw() {
        text("HIT**R DEFINETLY HAD A MICROP***S",75,ypos+110);
        text("TO EXCITE MYSELF IS SHOVE SOME HOT WHEELS UP MY A**S",75,ypos+110);
        text("C**SHOT SO POWERFUL IT REACHED VENUS",75,ypos+110);
+       text("IM WEIRD AS",75,ypos+110);
+
 
        
 
