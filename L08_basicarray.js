@@ -35,9 +35,9 @@ function draw() {
        text("KAI CENAT IS A PERFORMATIVE DINGUUS",75,ypos+390);
        text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",75,ypos+500);
         text("WHAT HAPPENED IT IS THE NEW WAVE",75,ypos+520);
-         text("THEN HE LOST ALL HIS MONEY THE VERY NEXT DAY",165,ypos+540);
-          text("THEN I LOST 5K ON A POKER PLAY",165,ypos+560);
-           text("THEN MY CRUSH TURNED DOWN MY DATE",165,ypos+580);
+         text("THEN HE LOST ALL HIS MONEY THE VERY NEXT DAY",175,ypos+540);
+          text("THEN I LOST 5K ON A POKER PLAY",75,ypos+560);
+           text("THEN MY CRUSH TURNED DOWN MY DATE",75,ypos+580);
            text("NOW ITS TIME TO TURN GAY",164,ypos+600);
             text("N BE A FEMBOY ON ONLYFANSSSSSS",165,ypos+620);
 
