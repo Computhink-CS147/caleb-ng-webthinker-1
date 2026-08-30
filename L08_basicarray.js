@@ -39,7 +39,7 @@ function draw() {
           text("THEN I LOST 5K ON A POKER PLAY",165,ypos+560);
            text("THEN MY CRUSH TURNED DOWN MY DATE",165,ypos+580);
            text("NOW ITS TIME TO TURN GAY",164,ypos+600);
-           
+            text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",165,ypos+620);
 
 
        
