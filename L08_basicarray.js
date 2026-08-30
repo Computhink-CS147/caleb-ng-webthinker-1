@@ -20,7 +20,7 @@ function draw() {
      textSize(10);
      text("THE ROCK ON MY A** MADE ME DISABLED",75,ypos+50);
      text("TOLD BRO I HAVE CP BECAUSE I WAS MENTAL",75,ypos+70);
-      text("MY BREATH SMELLS LIKE S**T I NEED A MENTO",75,ypos+70);
-       text("TOLD BRO I HAVE CP BECAUSE I WAS MENTAL",75,ypos+70);
+      text("MY BREATH SMELLS LIKE S**T I NEED A MENTO",75,ypos+90);
+       text("TOLD BRO I HAVE CP BECAUSE I WAS MENTAL",75,ypos+110);
     ypos -= 0.67;
 }
