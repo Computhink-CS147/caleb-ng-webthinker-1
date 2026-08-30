@@ -25,7 +25,9 @@ function draw() {
        text("KIM JONG UN IS MASTER OF GOON",75,ypos+130);
        text("ME N P DIDDY HAVE A SNEAKY SNEAKY LINK",75,ypos+110);
        text("HE SHOWED ME HIS SUPER BIG DING A LING",75,ypos+110);
+       text("JEFFERY EPSTEIN TOUCHED ME WHEN I WAS A TEEN",75,ypos+110);
        text("IM WEIRD AS",75,ypos+110);
+       
 
        
 
