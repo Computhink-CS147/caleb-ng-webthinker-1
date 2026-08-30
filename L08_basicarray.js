@@ -33,8 +33,8 @@ function draw() {
        text("TO EXCITE MYSELF IS SHOVE SOME HOT WHEELS UP MY A**S",75,ypos+330);
        text("C**SHOT SO POWERFUL IT REACHED VENUS",75,ypos+360);
        text("KAI CENAT IS A PERFORMATIVE DINGUUS",75,ypos+390);
-       text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",165,ypos+500);
-        text("WHAT HAPPENED IT IS THE NEW WAVE",165,ypos+520);
+       text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",75,ypos+500);
+        text("WHAT HAPPENED IT IS THE NEW WAVE",75,ypos+520);
          text("THEN HE LOST ALL HIS MONEY THE VERY NEXT DAY",165,ypos+540);
           text("THEN I LOST 5K ON A POKER PLAY",165,ypos+560);
            text("THEN MY CRUSH TURNED DOWN MY DATE",165,ypos+580);
