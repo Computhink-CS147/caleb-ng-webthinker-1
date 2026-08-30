@@ -41,8 +41,8 @@ function draw() {
            text("NOW ITS TIME TO TURN GAY",75,ypos+600);
             text("N BE A FEMBOY ON ONLYFANSSSSSS",75,ypos+620);
 
-         text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",165,ypos+700);
-          text("THE END",165,ypos+800);
+         text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",75,ypos+700);
+          text("THE END",75,ypos+800);
 
 
        
