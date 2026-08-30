@@ -23,10 +23,10 @@ function draw() {
       text("MY BREATH SMELLS LIKE S**T I NEED A MENTO",75,ypos+90);
        text("IM WEIRD AS S**T I JUST LICKED MY TOE",75,ypos+110);
        text("KIM JONG UN IS MASTER OF GOON",75,ypos+130);
-       text("ME N P DIDDY HAVE A SNEAKY SNEAKY LINK",75,ypos+110);
-       text("HE SHOWED ME HIS SUPER BIG DING A LING",75,ypos+150);
+       text("ME N P DIDDY HAVE A SNEAKY SNEAKY LINK",75,ypos+160);
+       text("HE SHOWED ME HIS SUPER BIG DING A LING",75,ypos+190);
        text("JEFFERY EPSTEIN TOUCHED ME WHEN I WAS A TEEN",75,ypos+170);
-       text("WHEN I MET MY UNCLE S**T GOT FREAKY",75,ypos+190);
+       text("WHEN I MET MY UNCLE S**T GOT FREAKY",75,ypos+210);
        text("TURNS OUT ME N HIM ARE MAD ZESTY",75,ypos+210);
        text("9/11 OSAMA IS RELATED TO OBAMA",75,ypos+230);
        text("HIT**R DEFINETLY HAD A MICROP***S",75,ypos+260);
