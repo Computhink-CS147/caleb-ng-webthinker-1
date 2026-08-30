@@ -27,7 +27,9 @@ function draw() {
        text("HE SHOWED ME HIS SUPER BIG DING A LING",75,ypos+110);
        text("JEFFERY EPSTEIN TOUCHED ME WHEN I WAS A TEEN",75,ypos+110);
        text("WHEN I MET MY UNCLE S**T GOT FREAKY",75,ypos+110);
+       text("TURNS OUT ME N HIM ARE MAD ZESTY",75,ypos+110);
        text("IM WEIRD AS",75,ypos+110);
+
        
        
 
