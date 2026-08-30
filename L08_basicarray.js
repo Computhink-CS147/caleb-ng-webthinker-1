@@ -10,4 +10,4 @@ function draw() {
     text("PSLE",100,ypos);
 }
 
-ypos=ypos
+ypos=ypos -0.67
