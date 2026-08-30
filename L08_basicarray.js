@@ -3,7 +3,7 @@ let ypos =0;
 function setup() {
     createCanvas(400,600);
     background(220);
-    ypos= height
+    ypos= height;
 }
 
 function draw() {
