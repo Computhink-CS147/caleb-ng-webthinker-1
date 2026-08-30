@@ -38,7 +38,8 @@ function draw() {
          text("THEN HE LOST ALL HIS MONEY THE VERY NEXT DAY",165,ypos+540);
           text("THEN I LOST 5K ON A POKER PLAY",165,ypos+560);
            text("THEN MY CRUSH TURNED DOWN MY DATE",165,ypos+580);
-           text("")
+           text("NOW ITS TIME TO TURN GAY",164,ypos+600);
+           
 
 
        
