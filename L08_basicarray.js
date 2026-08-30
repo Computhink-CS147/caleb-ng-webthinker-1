@@ -20,6 +20,6 @@ function draw() {
      textSize(10);
      text("THE ROCK ON MY A** MADE ME DISABLED",75,ypos+50);
      text("TOLD BRO I HAVE CP BECAUSE I WAS MENTAL",75,ypos+70);
-     te
+      text("TOLD BRO I HAVE CP BECAUSE I WAS MENTAL",75,ypos+70);
     ypos -= 0.67;
 }
