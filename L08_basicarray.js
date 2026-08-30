@@ -33,6 +33,7 @@ function draw() {
        text("TO EXCITE MYSELF IS SHOVE SOME HOT WHEELS UP MY A**S",75,ypos+330);
        text("C**SHOT SO POWERFUL IT REACHED VENUS",75,ypos+360);
        text("KAI CENAT IS A PERFORMATIVE DINGUUS",75,ypos+390);
+       text("♪♪♪",165,ypos+410);
 
 
        
