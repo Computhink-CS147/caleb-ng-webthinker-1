@@ -6,5 +6,5 @@ function setup() {
 
 function draw() {
     textSize(18);
-    text("PSLE" 1)
+    text("PSLE",100,height/2)
 }
