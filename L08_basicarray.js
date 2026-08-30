@@ -36,7 +36,7 @@ function draw() {
        text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",165,ypos+500);
         text("WHAT HAPPENED IT IS THE NEW WAVE",165,ypos+520);
          text("THEN HE LOST ALL HIS MONEY THE VERY NEXT DAY",165,ypos+540);
-          text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",165,ypos+410);
+          text("",165,ypos+410);
 
 
        
