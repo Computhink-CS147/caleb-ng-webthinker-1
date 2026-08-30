@@ -42,7 +42,7 @@ function draw() {
             text("N BE A FEMBOY ON ONLYFANSSSSSS",165,ypos+620);
 
          text("♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪",165,ypos+700);
-          text("THE END",165,ypos+410);
+          text("THE END",165,ypos+800);
 
 
        
