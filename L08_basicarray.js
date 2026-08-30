@@ -5,5 +5,6 @@ function setup() {
 }
 
 function draw() {
-    textSize()
+    textSize(18);
+    
 }
