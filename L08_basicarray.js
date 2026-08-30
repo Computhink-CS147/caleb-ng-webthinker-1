@@ -22,5 +22,7 @@ function draw() {
      text("TOLD BRO I HAVE CP BECAUSE I WAS MENTAL",75,ypos+70);
       text("MY BREATH SMELLS LIKE S**T I NEED A MENTO",75,ypos+90);
        text("IM WEIRD AS S**T I JUST LICKED MY TOE",75,ypos+110);
+       text("IM WEIRD AS",75,ypos+110);
+
     ypos -= 0.67;
 }
