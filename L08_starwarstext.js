@@ -26,5 +26,7 @@ let storyText=[
     "A long time ago in a galaxy far",
     "far away",
     "it is a gooner",
-    
+    "our adventure to learn gooning begins here",
+    "anything is possible if you goon "
 ]
+
