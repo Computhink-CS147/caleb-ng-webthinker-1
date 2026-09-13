@@ -31,6 +31,6 @@ let storyText=[
 ]
 
 function preload(){
-    varname=s
+    varname=sfx()
 }
 
