@@ -31,6 +31,6 @@ let storyText=[
 ]
 
 function preload(){
-    varname=sfx()
+    varname=sfx(star_wars_them)
 }
 
