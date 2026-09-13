@@ -21,6 +21,8 @@
 
 //     }
 // }
+let ypos =0;
+let lineY=0;
 
 let storyText=[
     "A long time ago in a galaxy far",
@@ -30,9 +32,10 @@ let storyText=[
     "anything is possible if you goon "
 ]
 
+
 function preload(){
     varname=sfx('assets/star_wars_theme_8_bit.mp3')
     varname.loop()
-    
+
 }
 
