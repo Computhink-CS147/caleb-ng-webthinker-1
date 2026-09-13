@@ -9,6 +9,6 @@ function draw(){
     textAlign(LEFT);
     text("My Favourite Foods");
     for(let i=0; i<FileList,length;i++);{
-        text(list)
+        text(list[1],50*50)
     }
 }
