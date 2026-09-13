@@ -39,3 +39,8 @@ function preload(){
 
 }
 
+function setup() {
+    createCanvas(400,600);
+    background(220);
+    ypos= height;
+}
