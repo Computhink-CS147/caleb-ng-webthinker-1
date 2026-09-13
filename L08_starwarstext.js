@@ -31,6 +31,6 @@ let storyText=[
 ]
 
 function preload(){
-    varname.loop(star_wars_theme_8_bit.mp3)
+    varname
 }
 
