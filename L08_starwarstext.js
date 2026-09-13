@@ -30,7 +30,7 @@ let storyText=[
     "anything is possible if you goon "
 ]
 
-function preload{
+function preload(){
     varname.loop(star_wars_theme_8_bit.mp3)
 }
 
