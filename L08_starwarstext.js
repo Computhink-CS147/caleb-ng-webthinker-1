@@ -21,48 +21,5 @@
 
 //     }
 // }
-let ypos =0;
-let lineY=0;
 
-let storyText=[
-    "A long time ago in a galaxy far",
-    "far away",
-    "it is a gooner",
-    "our adventure to learn gooning begins here",
-    "anything is possible if you goon "
-]
-
-
-function preload(){
-    varname=sfx('assets/star_wars_theme_8_bit.mp3')
-    varname.loop()
-
-}
-
-function setup() {
-    createCanvas(400,600);
-    background(220);
-    ypos= height;
-}
-
-function draw() {
-    background(220);
-    textSize(18);
-    text("A long time ago in a galaxy far",
-    "far away",
-    "it is a gooner",
-    "our adventure to learn gooning begins here",
-    "anything is possible if you goon ",75,ypos+30
-);
-
-
-       
-
-
-       
-       
-
-       
-
-    ypos -=  0.2;
-}
+    
