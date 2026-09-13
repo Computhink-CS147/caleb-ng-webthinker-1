@@ -1,5 +1,6 @@
 // write your codes here
 let lineGap=60;
+let yPos
 function setup(){
     createCanvas(400,400);
 }
