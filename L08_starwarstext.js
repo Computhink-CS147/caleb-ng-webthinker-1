@@ -7,5 +7,6 @@ function draw(){
     // textSize(20);
     textSize(20);
     textAlign(LEFT);
-    text("My favourite Foods")
+    text("My Favourite Foods")
+    
 }
