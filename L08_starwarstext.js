@@ -1,8 +1,7 @@
 // write your codes here
-let lineGap=
-
+let lineGap=60-;
 function setup(){
-    
+    createCanvas(400,400);
 }
 function draw(){
     // background(220);
@@ -12,5 +11,12 @@ function draw(){
     text("My Favourite Foods");
     for(let i=0; i<FileList,length;i++);{
         text(list[1],50*50)
+        yPos-= 0.6;
+        if(ypos< -list.length*lineGap)
+            if(yPos<list.length*lineGap){
+
+            }
+            yPos=height;
+
     }
 }
