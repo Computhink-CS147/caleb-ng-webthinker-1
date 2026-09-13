@@ -53,7 +53,7 @@ function draw() {
     "it is a gooner",
     "our adventure to learn gooning begins here",
     "anything is possible if you goon "
-")
+);
 
 
        
