@@ -32,6 +32,6 @@ let storyText=[
 
 function preload(){
     varname=sfx('assets/star_wars_theme_8_bit.mp3')
-    
+    varname.loop()
 }
 
