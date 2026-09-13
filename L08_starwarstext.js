@@ -31,6 +31,6 @@ let storyText=[
 ]
 
 function preload(){
-    varname=loadSound('')
+    varname=s
 }
 
