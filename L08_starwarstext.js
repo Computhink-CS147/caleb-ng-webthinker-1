@@ -6,5 +6,6 @@ function draw(){
     // background(220);
     // textSize(20);
     textSize(20);
-    textAlign(LEFT)
+    textAlign(LEFT);
+    text("M")
 }
