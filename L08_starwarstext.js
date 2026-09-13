@@ -48,7 +48,12 @@ function setup() {
 function draw() {
     background(220);
     textSize(18);
-    text("A")
+    text("A long time ago in a galaxy far",
+    "far away",
+    "it is a gooner",
+    "our adventure to learn gooning begins here",
+    "anything is possible if you goon "
+")
 
 
        
