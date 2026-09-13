@@ -30,4 +30,6 @@ let storyText=[
     "anything is possible if you goon "
 ]
 
-
+function preload{
+    varname()
+}
