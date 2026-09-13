@@ -52,7 +52,7 @@ function draw() {
     "far away",
     "it is a gooner",
     "our adventure to learn gooning begins here",
-    "anything is possible if you goon "
+    "anything is possible if you goon ",75,ypos+30
 );
 
 
