@@ -18,6 +18,6 @@ fill("red");
 textSize(32);
 text(countdown(), width/2, height/2 + 75);
 textSize(16);
-text
+text("click to start the countdown", width/2, height/2 + 100);
 }
 
