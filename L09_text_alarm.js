@@ -17,7 +17,7 @@ textSize(72);
 text(nf(h, 2) + ":" + nf(m, 2) + ":" + nf(s, 2), width/2, height/2);
 fill("red");
 textSize(32);
-text(countdown(), width/2, height/2 + 75);
+text(countdown, width/2, height/2 + 75);
 textSize(16);
 text("click to start the countdown", width/2, height/2 + 100);
 }
