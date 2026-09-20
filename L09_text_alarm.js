@@ -26,3 +26,11 @@ function mousePressed(){
     objectid=setInterval(updatecountdown, 1000);
 }
 
+function updatecountdown(){
+    if (countdown===0){
+        clearInterval(objectid);
+    }
+    else{
+        countdown=countdown-1;
+    }
+}
