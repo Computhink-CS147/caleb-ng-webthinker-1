@@ -12,6 +12,7 @@ let h = hour();
 let m = minute();
 let s = second();
 fill(0)
-text
+textSize(72)
+
 
 }
