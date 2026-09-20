@@ -33,12 +33,13 @@ function updatecountdown(){
     if (countdown===0){
         clearInterval(objectid);
         bgcolor="red";
+       bgSound.play();
+
     }
-    else{
+    else { 
         countdown=countdown-1;
     }
 }
 function preload(){
-    bgSound = loadSound('assets/bossaNova.mp3');
-    bgSound.play();
+    bgSound = loadSound("assets/bossaNova.mp3");
 }
