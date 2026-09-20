@@ -39,5 +39,5 @@ function updatecountdown(){
     }
 }
 function preload(){
-    bgSound = loadSound('bossaNova.mp3');
+    bgSound = loadSound('assets/bossaNova.mp3');
 }
