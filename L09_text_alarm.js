@@ -1,5 +1,7 @@
 ///ssssss
 let countdown=5
+let objectid;
+let
 function setup(){
     createCanvas(400,400);
     background(220);
