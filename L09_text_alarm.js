@@ -1,1 +1,9 @@
-// write your codes here
+///ssssss
+function setup(){
+    createCanvas(400,400);
+}
+
+
+function draw(){
+    
+}
