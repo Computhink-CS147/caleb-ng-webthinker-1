@@ -2,6 +2,7 @@
 let countdown=5
 let objectid;
 let bgcolor="lightgray";
+let bgSound;
 function setup(){
     createCanvas(400,400);
     background(220);
@@ -36,4 +37,7 @@ function updatecountdown(){
     else{
         countdown=countdown-1;
     }
+}
+function preload(){
+    bgSound = loadSound('bossaNova.mp3');
 }
