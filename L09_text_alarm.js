@@ -22,3 +22,6 @@ textSize(16);
 text("click to start the countdown", width/2, height/2 + 100);
 }
 
+function mousePressed(){
+    objectid=setInterval(updatecountdown, 1000);
+}
