@@ -31,6 +31,7 @@ function mousePressed(){
 function updatecountdown(){
     if (countdown===0){
         clearInterval(objectid);
+        bgcolor="red";
     }
     else{
         countdown=countdown-1;
