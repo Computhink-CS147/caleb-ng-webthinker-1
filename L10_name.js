@@ -3,7 +3,7 @@ function setup() {
     createCanvas(600,400);
     background("lime");
     textinput = createInput();
-    textinput.pos
+    textinput.position(width/2-100,)
 
 
 }
