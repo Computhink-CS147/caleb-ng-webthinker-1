@@ -4,6 +4,7 @@ let someVar;
 function setup() {
     createCanvas(600,400);
     background("lime");
+    textAlign(CENTER,CENTER);
     textinput = createInput();
     textinput.position(width/2-100,height/2);
     textinput.input(updateMyVar);
