@@ -15,12 +15,13 @@ function draw() {
     background("lime");
     textsize(32);
     text(someVar, width/2 , height/2+80);
-    
+
 
 
     
 }
 
 function updateMyVar(){
+    someVar = textinput.value();
 
 }
