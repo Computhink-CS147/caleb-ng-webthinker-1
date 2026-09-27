@@ -22,7 +22,6 @@ function draw() {
     fill("white");
     textSize(32);
     text(someVar, width/2 , height/2-80);
-    createinput();
 
 
 
