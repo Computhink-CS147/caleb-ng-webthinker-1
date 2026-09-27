@@ -23,7 +23,7 @@ function draw() {
     strokeWeight(4);
 
     fill("blue");
-    rect(150,80,500,80,20,20);
+    rect(150,80,300,80,20,20);
     fill("white");
     textSize(32);
     text(someVar, width/2 , height/2-80);
