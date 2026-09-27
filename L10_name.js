@@ -14,10 +14,10 @@ function setup() {
 
 function draw() {
     background("lime");
+    fill
     rect(130,80,300,100,20,20);
-    fill("blue");
+
     textSize(32);
-    fill("white");
     text(someVar, width/2 , height/2-80);
 
 
