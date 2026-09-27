@@ -3,6 +3,7 @@ let textInput;
 let someVar="";
 let ageInput;
 let someAge=0;
+let colorpicker;
 function setup() {
     createCanvas(600,400);
     background("lime");
