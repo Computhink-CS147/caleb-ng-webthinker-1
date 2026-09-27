@@ -1,5 +1,5 @@
 // write your codes here
-let textinput;
+let textInput;
 let someVar="";
 let ageInput;
 let someAge="2";
