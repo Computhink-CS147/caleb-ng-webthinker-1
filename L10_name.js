@@ -17,28 +17,28 @@ function setup() {
 
 }
 
-function draw() {
-    background("lime");
-    stroke("red");
-    strokeWeight(4);
+// function draw() {
+//     background("lime");
+//     stroke("red");
+//     strokeWeight(4);
 
-    fill("blue");
-    rect(150,80,300,100,20,20);
-    fill("white");
-    textSize(32);
-    text(someVar, width/2 , height/2-80);
+//     fill("blue");
+//     rect(150,80,300,100,20,20);
+//     fill("white");
+//     textSize(32);
+//     text(someVar, width/2 , height/2-80);
 
-    textSize(16);
-    text("tell me your name:", 70, height/2+10);
-       text("tell me your age:", 70, height/2+50);
-    fill("black");
-    strokeWeight("1");
+//     textSize(16);
+//     text("tell me your name:", 70, height/2+10);
+//        text("tell me your age:", 70, height/2+50);
+//     fill("black");
+//     strokeWeight("1");
 
 
 
 
     
-}
+// }
 
 function updateMyVar(){
     someVar = textinput.value();
