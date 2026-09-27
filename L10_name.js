@@ -1,4 +1,6 @@
 // write your codes here
+let textinput;
+let myVar = "Hello";
 function setup() {
     createCanvas(600,400);
     background("lime");
@@ -11,7 +13,7 @@ function setup() {
 
 function draw() {
     background("lime");
-    
+
 
     
 }
