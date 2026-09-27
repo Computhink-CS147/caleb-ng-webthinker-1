@@ -27,6 +27,8 @@ function draw() {
     fill("white");
     textSize(32);
     text(someVar, width/2 , height/2-150);
+    text(someAge, width/2 , height/2-100);
+    fill("black");
 
     textSize(16);
     text("tell me your name:", 70, height/2+10);
