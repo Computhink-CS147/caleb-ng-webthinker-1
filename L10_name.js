@@ -4,6 +4,7 @@ function setup() {
     background("lime");
     textinput = createInput();
     textinput.position(width/2-100,height/2);
+    textinput.input()
 
 
 
