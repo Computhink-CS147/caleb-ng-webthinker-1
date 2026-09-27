@@ -8,7 +8,7 @@ function setup() {
     background("lime");
     textAlign(CENTER,CENTER);
     textInput = createInput();
-    textInput.position(width/2-100,height/2);
+    textInput.position(width/2-100,height/2+100);
     textInput.input(updateMyVar);
     ageInput = createInput();
     ageInput.position(width/2-100,height/2+40);
