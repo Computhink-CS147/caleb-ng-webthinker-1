@@ -27,7 +27,7 @@ function draw() {
     fill("white");
     textSize(32);
     text(someVar, width/2 , 150);
-    text(someAge, width/2 , height/2-100);
+    text(someAge, width/2 , 100);
     fill("black");
     textAlign(LEFT, CENTER);
 
