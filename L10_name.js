@@ -15,6 +15,7 @@ function setup() {
     ageInput.position(width/2-100,height/2+40);
     ageInput.input(updateMyAge);
     colorpicker = createColorPicker("red");
+    colorpicker.position(width/2-100,height/2+80);
 
 }
 
