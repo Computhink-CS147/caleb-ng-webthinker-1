@@ -12,7 +12,7 @@ function setup() {
     textinput.input(updateMyVar);
     textinput=createInput();
     textinput.position(width/2-100,height/2+40);
-    textinput.input(updateMy);
+    textinput.input(updateMyAge);
 
 
 }
