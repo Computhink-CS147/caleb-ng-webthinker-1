@@ -14,7 +14,7 @@ function setup() {
 
 function draw() {
     background("lime");
-    rect(200,80,300,100,20,20);
+    rect(130,80,300,100,20,20);
     fill("blue");
     textSize(32);
     text(someVar, width/2 , height/2-80);
