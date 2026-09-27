@@ -33,7 +33,7 @@ function draw() {
 
     textSize(16);
     text("tell me your name:", 70, height/2+10);
-       text("tell me your age:", 70, height/2+50);
+    text("tell me your age:", 70, height/2+50);
     fill("black");
     strokeWeight("1");
 
