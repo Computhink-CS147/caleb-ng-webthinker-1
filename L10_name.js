@@ -14,7 +14,9 @@ function setup() {
 
 function draw() {
     background("lime");
-    stroke("red")
+    stroke("red");
+    strokeWeight(4);
+    
     fill("blue");
     rect(130,80,300,100,20,20);
     fill("white");
