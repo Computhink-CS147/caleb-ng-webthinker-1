@@ -23,6 +23,9 @@ function draw() {
     textSize(32);
     text(someVar, width/2 , height/2-80);
 
+    textSize(16);
+    
+
 
 
     
