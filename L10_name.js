@@ -1,7 +1,8 @@
 // write your codes here
 let textinput;
 let someVar="";
-let age
+let ageinput;
+let some
 function setup() {
     createCanvas(600,400);
     background("lime");
