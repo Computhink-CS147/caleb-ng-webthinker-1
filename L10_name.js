@@ -16,12 +16,12 @@ function setup() {
     ageInput.input(updateMyAge);
     colorpicker = createColorPicker("red");
     colorpicker.position(width/2-100,height/2+80);
-    
+
 
 }
 
 function draw() {
-    background("lime");
+    background("colorpicker.value()");
     stroke("red");
     strokeWeight(4);
 
