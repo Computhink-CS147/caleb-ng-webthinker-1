@@ -15,13 +15,13 @@ function setup() {
     ageInput.position(width/2-100,height/2+40);
     ageInput.input(updateMyAge);
     colorpicker = createColorPicker("red");
-    colorpicker.position(width/2-100,height/2+80);
+    colorPicker.position(width/2-100,height/2+80);
 
 
 }
 
 function draw() {
-    background(colorpicker.value());
+    background(colorPicker.value());
     stroke("red");
     strokeWeight(4);
 
