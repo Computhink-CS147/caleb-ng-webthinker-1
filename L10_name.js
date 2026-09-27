@@ -25,6 +25,7 @@ function draw() {
 
     textSize(16);
     text("tell me your name:", width/2, height/2+50);
+    
 
 
 
