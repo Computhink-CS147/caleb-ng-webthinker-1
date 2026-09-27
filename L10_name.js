@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-    background("colorpicker.value()");
+    background(colorpicker.value());
     stroke("red");
     strokeWeight(4);
 
