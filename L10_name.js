@@ -1,7 +1,7 @@
 // write your codes here
 let textinput;
 let someVar="";
-let ageinput;
+let ageInput;
 let someAge="2";
 function setup() {
     createCanvas(600,400);
@@ -46,5 +46,5 @@ function updateMyVar(){
 
 }
 function updateMyAge(){
-    someAge = ageinput.value();
+    someAge = ageInput.value();
 }
