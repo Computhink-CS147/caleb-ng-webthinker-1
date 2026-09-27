@@ -29,7 +29,7 @@ function draw() {
     text(someVar, width/2 , height/2-150);
     text(someAge, width/2 , height/2-100);
     fill("black");
-    textalign(LEFT, CENTER);
+    textAlign(LEFT, CENTER);
 
     textSize(16);
     text("tell me your name:", 70, height/2+10);
