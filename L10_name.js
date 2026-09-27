@@ -39,6 +39,6 @@ function draw() {
 
 function updateMyVar(){
     someVar = textinput.value();
-    
+    someAge = ageinput.value();
 
 }
