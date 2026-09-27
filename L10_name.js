@@ -17,3 +17,5 @@ function draw() {
 
     
 }
+
+function updateMyVar(){
