@@ -26,7 +26,7 @@ function draw() {
     textSize(16);
     text("tell me your name:", width/2, height/2+50);
     fill("black");
-    strokeWeight(1);
+    strokeWeight("1");
 
 
 
