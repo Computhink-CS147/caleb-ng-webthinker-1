@@ -8,7 +8,7 @@ function setup() {
     background("lime");
     textAlign(CENTER,CENTER);
     textInput = createInput();
-    textInput.position(width/2-100,height/2+100);
+    textInput.position(width/2-100,height/2);
     textInput.input(updateMyVar);
     ageInput = createInput();
     ageInput.position(width/2-100,height/2+40);
@@ -35,7 +35,7 @@ function draw() {
     text("tell me your name:", 70, height/2+10);
     text("tell me your age:", 70, height/2+50);
     fill("black");
-    strokeWeight("1");
+    strokeWeight(1);
 
 
 
