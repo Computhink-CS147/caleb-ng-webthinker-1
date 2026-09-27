@@ -7,7 +7,7 @@ html, body {
   }
 
   h2{
-    color:aqua;
+    color:hwb(180 0% 0%);
     background-color: cadetblue;
     font-family: cursive;
     font-size: large;
