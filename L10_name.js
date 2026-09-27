@@ -4,4 +4,6 @@ function setup() {
     background("Black");
 }
 
-functio
+function draw() {
+    
+}
