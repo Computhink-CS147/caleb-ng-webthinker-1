@@ -13,9 +13,12 @@ function setup() {
 
 function draw() {
     background("lime");
+    
 
 
     
 }
 
 function updateMyVar(){
+
+}
