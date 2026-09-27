@@ -7,12 +7,12 @@ function setup() {
     createCanvas(600,400);
     background("lime");
     textAlign(CENTER,CENTER);
-    textinput = createInput();
-    textinput.position(width/2-100,height/2);
-    textinput.input(updateMyVar);
-    textinput=createInput();
-    textinput.position(width/2-100,height/2+40);
-    textinput.input(updateMyAge);
+    textInput = createInput();
+    textInput.position(width/2-100,height/2);
+    textInput.input(updateMyVar);
+    ageInput = createInput();
+    ageInput.position(width/2-100,height/2+40);
+    ageInput.input(updateMyAge);
 
 
 }
