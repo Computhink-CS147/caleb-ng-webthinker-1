@@ -1,6 +1,6 @@
 // write your codes here
 let textinput;
-let someVar=""
+let someVar="";
 function setup() {
     createCanvas(600,400);
     background("lime");
@@ -24,7 +24,7 @@ function draw() {
     text(someVar, width/2 , height/2-80);
 
     textSize(16);
-    text("tell me your name:", width/2, height/2+50);
+    text("tell me your name:", width/2, height/2+0);
     fill("black");
     strokeWeight("1");
 
