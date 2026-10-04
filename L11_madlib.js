@@ -38,13 +38,7 @@ function setup() {
     button=createButton("generate");
     button.position(width/2,550);
     button.mousePressed(storyText);
-    template=random(storytemplates);
-    storyText = template.replace("{noun}", "nounInput.value()");
-    storyText = storyText.replace("{verb}", "verbInput.value()");
-    storyText = storyText.replace("{adj}", "adjInput.value()");
-    storyText = storyText.replace("{adv}", "advInput.value()");
-    storyText = storyText.replace("{p}", "pInput.value()");
-    console.log(storyText);
+  c
 
 }
 function draw() {
