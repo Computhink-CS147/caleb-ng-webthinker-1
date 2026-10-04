@@ -18,6 +18,8 @@ function setup() {
     // button = createButton("submit");
     // button.position(width/2,250);
     adjInput = createInput();
+    adjInput.position(width/2,300);
+    
     colorPicker = createColorPicker("red");
     colorPicker.position(width/2,300);
 
