@@ -4,7 +4,7 @@ let textinput;
 function setup() {
     createCanvas(700,700);
     textinput = createInput();
-    textinp
+    textinput.po
 }
 function draw() {
     background(200);
