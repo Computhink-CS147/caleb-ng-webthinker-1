@@ -11,7 +11,7 @@ let storytemplates;
 function setup() {
     storytemplates = [
         "The {adj} {noun} decided to {verb} {adv} in the {p}.",
-        "in"
+        "one day"
     ] ;
 
 
