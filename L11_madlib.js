@@ -14,7 +14,8 @@ function setup() {
         "one day, {adj} {noun} wanted to {verb} in the {p}.",
         "did you know that the {adj} {noun} can {verb} {adv} in the {p}?"
     ] ;
-    template=r
+    template=random(storytemplates);
+    storyText = template;
 
     createCanvas(700,900);
     nounInput = createInput();
