@@ -6,7 +6,7 @@ let verbInput;
 let adjInput;
 let advInput;
 let pInput;
-
+let storyText="";
 function setup() {
     createCanvas(700,900);
     nounInput = createInput();
