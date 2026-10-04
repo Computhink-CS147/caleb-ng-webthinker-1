@@ -8,6 +8,7 @@ let advInput;
 let pInput;
 let storyText;
 let storytemplates;
+let updateStory;
 function setup() {
     storytemplates = [
         "The {adj} {noun} decided to {verb} {adv} in the {p}.",
@@ -37,7 +38,7 @@ function setup() {
 
     button=createButton("generate");
     button.position(width/2,550);
-    button.mousePressed(update;
+    button.mousePressed(updateStory);
     template=random(storytemplates);
     
 }
