@@ -1,6 +1,6 @@
 // write your codes here
 let submitButton;
-let textinput
+let textinput;
 function setup() {
     createCanvas(700,700);
 }
