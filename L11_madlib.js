@@ -17,8 +17,7 @@ function setup() {
 
 }
 function draw() {
-    col
-    background(200);
+    background(colorPicker.value());
     textSize(20);
     text("tell me your name:", width/2, 110);
     textAlign(RIGHT,CENTER);
