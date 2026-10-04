@@ -8,6 +8,7 @@ function setup() {
     button = createButton("submit");
     button.position(width/2,150);
     textinput=createInput();
+    textinput.position(width/2,200);
     
 
 }
