@@ -37,7 +37,7 @@ function setup() {
 
     button=createButton("generate");
     button.position(width/2,550);
-    button.mousePressed(storyText);
+    button.mousePressed(update;
     template=random(storytemplates);
     
 }
