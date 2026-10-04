@@ -11,5 +11,5 @@ function setup() {
 }
 function draw() {
     background(200);
-    
+    text("tell me your name:", width/2, 80);
 }
