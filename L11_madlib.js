@@ -17,6 +17,7 @@ function setup() {
 
 }
 function draw() {
+    col
     background(200);
     textSize(20);
     text("tell me your name:", width/2, 110);
