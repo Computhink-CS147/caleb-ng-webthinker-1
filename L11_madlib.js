@@ -2,16 +2,16 @@
 let button;
 let nounInput;
 let colorPicker;
-let sInput;
+let verbInput;
 
 function setup() {
     createCanvas(700,700);
-    textinput = createInput();
-    textinput.position(width/2,100);
+    nounInput = createInput();
+    nounInput.position(width/2,100);
     // button = createButton("submit");
     // button.position(width/2,150);
-    secondInput = createInput();
-    secondInput.position(width/2,200);
+    verbInput = createInput();
+    verbInput.position(width/2,200);
     // button = createButton("submit");
     // button.position(width/2,250);
     colorPicker = createColorPicker("red");
