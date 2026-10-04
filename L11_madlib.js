@@ -27,5 +27,5 @@ function draw() {
 }
 function updatestory(){
     print("hello"+textinput.value());
-    print()
+    print("i am going to"+secondInput.value());
 }
