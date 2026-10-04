@@ -16,8 +16,8 @@ function setup() {
     colorPicker = createColorPicker("red");
     colorPicker.position(width/2,300);
 
-    buttoon=createButton("generate");
-    
+    button=createButton("generate");
+    button
 
 }
 function draw() {
