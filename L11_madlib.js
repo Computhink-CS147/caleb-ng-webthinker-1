@@ -36,7 +36,7 @@ function setup() {
 function draw() {
     background(colorPicker.value());
     textSize(20);
-    text("tell me your name:", width/2, 110);
+    text("Enter a noun:", width/2, 110);
     textAlign(RIGHT,CENTER);
     text("tell me your home adress:", width/2, 210);
     textAlign(RIGHT,CENTER);
