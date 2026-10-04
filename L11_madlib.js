@@ -16,6 +16,8 @@ function setup() {
     colorPicker = createColorPicker("red");
     colorPicker.position(width/2,300);
 
+    
+
 }
 function draw() {
     background(colorPicker.value());
