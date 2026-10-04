@@ -12,7 +12,7 @@ function setup() {
     storytemplates = [
         "The {adj} {noun} decided to {verb} {adv} in the {p}.",
         "one day, {adj} {noun} wanted to {verb} in the {p}.",
-        
+        "did you know that the {adj} {noun} can {verb} {adv} in the {p}?"
     ] ;
 
 
