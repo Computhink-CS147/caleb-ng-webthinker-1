@@ -9,6 +9,7 @@ let pInput;
 let storyText;
 let storytemplates;
 function setup() {
+    story
     createCanvas(700,900);
     nounInput = createInput();
     nounInput.position(width/2,100);
