@@ -5,6 +5,8 @@ function setup() {
     createCanvas(700,700);
     textinput = createInput();
     textinput.position(width/2,100);
+    button = createButton("submit");
+    button.position(width/2,150);
 
 }
 function draw() {
