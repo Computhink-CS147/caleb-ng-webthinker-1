@@ -4,6 +4,8 @@ let nounInput;
 let colorPicker;
 let verbInput;
 let adjInput;
+let advInput;
+
 
 function setup() {
     createCanvas(700,700);
