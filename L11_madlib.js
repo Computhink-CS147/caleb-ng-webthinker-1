@@ -14,13 +14,7 @@ function setup() {
         "one day, {adj} {noun} wanted to {verb} in the {p}.",
         "did you know that the {adj} {noun} can {verb} {adv} in the {p}?"
     ] ;
-    template=random(storytemplates);
-    storyText = template.replace("{noun}", "nounInput.value()");
-    storyText = storyText.replace("{verb}", "verbInput.value()");
-    storyText = storyText.replace("{adj}", "adjInput.value()");
-    storyText = storyText.replace("{adv}", "advInput.value()");
-    storyText = storyText.replace("{p}", "pInput.value()");
-    console.log(storyText);
+    
     createCanvas(700,900);
     nounInput = createInput();
     nounInput.position(width/2,100);
