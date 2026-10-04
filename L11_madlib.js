@@ -9,8 +9,11 @@ let pInput;
 let storyText;
 let storytemplates;
 function setup() {
-    storytemplates = ["The {adj} {noun} decided to {verb} {adv} in the {p}."] ;
-    
+    storytemplates = [
+        "The {adj} {noun} decided to {verb} {adv} in the {p}."
+        
+    ] ;
+
 
     createCanvas(700,900);
     nounInput = createInput();
