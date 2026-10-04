@@ -18,6 +18,6 @@ function draw() {
     textSize(20);
     text("tell me your name:", width/2, 110);
     textAlign(RIGHT,CENTER);
-    text("tell me your home adress:", width/2, 200);
+    text("tell me your home adress:", width/2, 190);
     textAlign(RIGHT,CENTER);
 }
