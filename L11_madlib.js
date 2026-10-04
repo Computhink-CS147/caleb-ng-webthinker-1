@@ -15,7 +15,7 @@ function setup() {
         "did you know that the {adj} {noun} can {verb} {adv} in the {p}?"
     ] ;
     template=random(storytemplates);
-    storyText = template.replace("{noun}", "nounI")
+    storyText = template.replace("{noun}", "nounInput.value()");
     storyText = storyText.replace("{verb}", "run")
     storyText = storyText.replace("{adj}", "happy")
     storyText = storyText.replace("{adv}", "quickly")
