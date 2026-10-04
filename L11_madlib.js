@@ -38,7 +38,13 @@ function draw() {
     textSize(20);
     text("Enter a noun:", width/2, 110);
     textAlign(RIGHT,CENTER);
-    text("tell me your home adress:", width/2, 210);
+    text("Enter a verb:", width/2, 210);
+    textAlign(RIGHT,CENTER);
+    text("Enter an adjective:", width/2, 310);
+    textAlign(RIGHT,CENTER);
+    text("Enter an adverb:", width/2, 410);
+    textAlign(RIGHT,CENTER);
+    text("Enter a place:", width/2, 510);
     textAlign(RIGHT,CENTER);
 }
 function updatestory(){
