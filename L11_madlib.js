@@ -5,6 +5,7 @@ let colorPicker;
 let verbInput;
 let adjInput;
 let advInput;
+let pInput;
 
 
 function setup() {
