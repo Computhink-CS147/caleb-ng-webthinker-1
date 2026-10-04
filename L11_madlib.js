@@ -9,7 +9,7 @@ let pInput;
 let storyText;
 let storytemplates;
 function setup() {
-    story
+    storytemplates = ["Once upon a time, there was a [noun] who loved to [verb] in the [adjective] [place]. One day, they decided to [verb] [adverb] and it changed their life forever."];
     createCanvas(700,900);
     nounInput = createInput();
     nounInput.position(width/2,100);
