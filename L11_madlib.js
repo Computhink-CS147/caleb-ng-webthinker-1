@@ -26,7 +26,7 @@ function setup() {
     pInput = createInput();
     pInput.position(width/2,500);
     colorPicker = createColorPicker("red");
-    colorPicker.position(width/2,300);
+    colorPicker.position(width/2,600);
 
     button=createButton("generate");
     button.position(width/2,250);
