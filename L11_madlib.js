@@ -6,7 +6,6 @@ let verbInput;
 let adjInput;
 let advInput;
 let pInput;
-let
 
 function setup() {
     createCanvas(700,700);
