@@ -16,7 +16,10 @@ function setup() {
     ] ;
     template=random(storytemplates);
     storyText = template.replace("{noun}", "dog")
-    
+    storyText = storyText.replace("{verb}", "run")
+    storyText = storyText.replace("{adj}", "happy")
+    storyText = storyText.replace("{adv}", "quickly")
+    storyText = storyText.replace("{p}", "park")
     console.log(storyText);
     createCanvas(700,900);
     nounInput = createInput();
