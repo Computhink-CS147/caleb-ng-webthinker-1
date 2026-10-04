@@ -14,5 +14,6 @@ function draw() {
     textSize(32);
     text("tell me your name:", width/2, 110);
     textAlign(RIGHT,CENTER);
-    text()
+    text("tell me your home adress:", width/2, 160);
+    text
 }
