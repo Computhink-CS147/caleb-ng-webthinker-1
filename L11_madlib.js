@@ -2,7 +2,7 @@
 let submitButton;
 
 function setup() {
-    createCanvas(800,600);
+    createCanvas(700,700);
 }
 function draw() {
     background(200);
