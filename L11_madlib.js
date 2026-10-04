@@ -17,6 +17,7 @@ function setup() {
     verbInput.position(width/2,200);
     // button = createButton("submit");
     // button.position(width/2,250);
+    adjInput = createInput();
     colorPicker = createColorPicker("red");
     colorPicker.position(width/2,300);
 
