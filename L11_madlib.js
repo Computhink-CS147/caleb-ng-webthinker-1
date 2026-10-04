@@ -9,7 +9,7 @@ let pInput;
 let storyText;
 let storytemplates;
 function setup() {
-    storytemplates = ["The"];
+    storytemplates = ["The [adj] [noun] decided to [verb] [adv] in the [p].", "Once upon a time, a [adj] [noun] wanted to [verb] [adv] at the [p].", "In the land of [p], a [adj] [noun] would always [verb] [adv].c"];
     createCanvas(700,900);
     nounInput = createInput();
     nounInput.position(width/2,100);
