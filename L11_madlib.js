@@ -7,7 +7,7 @@ let adjInput;
 let advInput;
 let pInput;
 let storyText;
-
+let storytemplates;
 function setup() {
     createCanvas(700,900);
     nounInput = createInput();
