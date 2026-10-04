@@ -9,8 +9,8 @@ function setup() {
     textinput.position(width/2,100);
     // button = createButton("submit");
     // button.position(width/2,150);
-    textinput=createInput();
-    textinput.position(width/2,200);
+    secondInput = createInput();
+    secondInput.position(width/2,200);
     // button = createButton("submit");
     // button.position(width/2,250);
     colorPicker = createColorPicker("red");
