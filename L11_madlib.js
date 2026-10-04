@@ -1,8 +1,8 @@
 // write your codes here
 let button;
-let textinput;
+let nounInput;
 let colorPicker;
-let secondInput;
+let sInput;
 
 function setup() {
     createCanvas(700,700);
