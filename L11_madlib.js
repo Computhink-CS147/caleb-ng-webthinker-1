@@ -17,7 +17,7 @@ function setup() {
     colorPicker.position(width/2,300);
 
     button=createButton("generate");
-    button.position(width/2,200);
+    button.position(width/2,250);
     button.mousePressed(updatestory);
 
 }
