@@ -18,7 +18,7 @@ function setup() {
 
     button=createButton("generate");
     button.position(width/2,200);
-    butto
+    button.mousePressed(updatestory);
 
 }
 function draw() {
