@@ -25,3 +25,6 @@ function draw() {
     text("tell me your home adress:", width/2, 210);
     textAlign(RIGHT,CENTER);
 }
+function updatestory(){
+    print("hello"+textinput.value());
+}
