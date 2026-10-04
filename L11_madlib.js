@@ -1,6 +1,7 @@
 // write your codes here
 let button;
 let textinput;
+let colorPicker;
 function setup() {
     createCanvas(700,700);
     textinput = createInput();
