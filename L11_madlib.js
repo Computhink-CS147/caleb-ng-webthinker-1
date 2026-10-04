@@ -56,7 +56,3 @@ function draw() {
     text("Enter a place:", width/2, 510);
     textAlign(RIGHT,CENTER);
 }
-function updatestory(){
-    print("hello " + textinput.value());
-    print("i am going to " + secondInput.value());
-}
