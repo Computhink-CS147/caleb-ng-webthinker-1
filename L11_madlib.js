@@ -10,8 +10,8 @@ let storyText;
 let storytemplates;
 function setup() {
     storytemplates = [
-        "The {adj} {noun} decided to {verb} {adv} in the {p}."
-        
+        "The {adj} {noun} decided to {verb} {adv} in the {p}.",
+        "in"
     ] ;
 
 
