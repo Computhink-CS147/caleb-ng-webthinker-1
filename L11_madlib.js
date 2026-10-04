@@ -8,7 +8,7 @@ let advInput;
 let pInput;
 
 function setup() {
-    createCanvas(700,700);
+    createCanvas(700,900);
     nounInput = createInput();
     nounInput.position(width/2,100);
     // button = createButton("submit");
