@@ -19,7 +19,12 @@ function setup() {
     // button.position(width/2,250);
     adjInput = createInput();
     adjInput.position(width/2,300);
+
+    advInput = createInput();
+    advInput.position(width/2,400);
     
+    pInput = createInput();
+    pInput.position(width/2,500);
     colorPicker = createColorPicker("red");
     colorPicker.position(width/2,300);
 
