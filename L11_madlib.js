@@ -12,6 +12,8 @@ function setup() {
     textinput.position(width/2,200);
     button = createButton("submit");
     button.position(width/2,250);
+    colorPicker = createColorPicker("red");
+    colorPicker.position(width/2,300);
 
 }
 function draw() {
