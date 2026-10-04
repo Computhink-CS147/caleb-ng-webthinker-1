@@ -11,9 +11,9 @@ function setup() {
 }
 function draw() {
     background(200);
-    textSize(32);
+    textSize(20);
     text("tell me your name:", width/2, 110);
     textAlign(RIGHT,CENTER);
-    text("tell me your home adress:", width/2, 160);
+    text("tell me your home adress:", width/2, 200);
     textAlign(RIGHT,CENTER);
 }
