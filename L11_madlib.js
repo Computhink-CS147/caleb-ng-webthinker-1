@@ -29,7 +29,7 @@ function setup() {
     colorPicker.position(width/2,600);
 
     button=createButton("generate");
-    button.position(width/2,700);
+    button.position(width/2,550);
     button.mousePressed(updatestory);
 
 }
