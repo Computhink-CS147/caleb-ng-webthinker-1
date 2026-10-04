@@ -13,5 +13,5 @@ function draw() {
     background(200);
     textSize(32);
     text("tell me your name:", width/2, 120);
-    t
+    textAlign(RIGHT,CENTER);
 }
