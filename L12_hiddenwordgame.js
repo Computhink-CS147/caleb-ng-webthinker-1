@@ -4,8 +4,9 @@ const WORDS = [
  "cherry", "date", "elderberry",
   "fig", "grape", "honeydew"],
 ["ant", "bee", "cat", "dog", "elephant",
- "frog", "goat", "horse"]];\
- 
+ "frog", "goat", "horse"]];
+ let guessInput;
+ let su
 
 function setup (){
     createCanvas(400,600);
