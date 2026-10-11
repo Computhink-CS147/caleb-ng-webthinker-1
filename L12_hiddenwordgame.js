@@ -1,5 +1,5 @@
 // write your codes here
-cons
+const WOR
 function setup (){
     createCanvas(400,600);
     
