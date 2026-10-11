@@ -22,3 +22,4 @@ function draw (){
         speed = speed * -1;
     }
 }
+}
