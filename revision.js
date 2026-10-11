@@ -23,7 +23,7 @@
 // }
 
 
-let planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"];
+let planets = ["Mercury", "Venus", "Earth"];
 let pos;
 
 function setup() {
@@ -34,7 +34,7 @@ function setup() {
 }
 
 function draw(){
-    background(Black);
+    background(220);
     pos=50;
     for (let i=0; i<planets.length; i++){
         text(planets[i], width/2, pos);
