@@ -1,8 +1,11 @@
 // write your codes here
-const WORDS = []
+const WORDS = [
 ["apple", "banana",
  "cherry", "date", "elderberry",
-  "fig", "grape", "honeydew"];
+  "fig", "grape", "honeydew"],
+["ant", "bee", "cat", "dog", "elephant",
+ "frog", "goat", "horse"]];\
+ 
 
 function setup (){
     createCanvas(400,600);
