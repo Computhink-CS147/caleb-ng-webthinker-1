@@ -34,6 +34,7 @@ function setup() {
 }
 
 function draw(){
+    background(Black);
     
 
 }
