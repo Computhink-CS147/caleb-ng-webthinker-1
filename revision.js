@@ -14,7 +14,7 @@ function draw (){
     Xpos += speed;
     if (Xpos > width + 50) {
         Xpos = -50;
-        background
+        background(Red);
     }
 
 }
