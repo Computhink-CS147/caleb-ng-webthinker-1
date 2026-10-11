@@ -11,8 +11,8 @@ function draw (){
     background(255, 0, 0);
     rectMode(CENTER);
        Xpos += speed;
-    if (Xpos > width + 50) {
-        Xpos ;
+    if (Xpos > width) {
+        speed=speed;
     }
         if (Xpos < 0) {
             speed = speed * -1;
