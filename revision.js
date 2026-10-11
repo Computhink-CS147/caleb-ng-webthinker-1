@@ -23,7 +23,7 @@
 // }
 
 
-let planets = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune];
+let planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"];
 let pos;
 
 function setup() {
