@@ -6,7 +6,8 @@ const WORDS = [
 ["ant", "bee", "cat", "dog", "elephant",
  "frog", "goat", "horse"]];
  let guessInput;
- let su
+ let submitButton;
+
 
 function setup (){
     createCanvas(400,600);
