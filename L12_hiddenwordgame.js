@@ -1,5 +1,5 @@
 // write your codes here
-const WOR
+const WORDS = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew"];
 function setup (){
     createCanvas(400,600);
     
