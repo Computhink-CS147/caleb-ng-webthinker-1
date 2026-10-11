@@ -1,4 +1,5 @@
-// write your codes her
+// write your codes here
+cons
 function setup (){
     createCanvas(400,600);
     
