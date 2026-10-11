@@ -33,5 +33,5 @@ function setup() {
     textAlign(CENTER);
 }
 
-
+function draw(){}
 
