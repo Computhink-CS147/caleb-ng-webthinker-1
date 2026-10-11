@@ -24,3 +24,5 @@
 
 
 let planets = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune];
+let pos
+
