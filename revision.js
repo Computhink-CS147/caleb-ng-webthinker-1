@@ -35,7 +35,11 @@ function setup() {
 
 function draw(){
     background(Black);
-    
+    pos=50;
+    for (let i=0; i<planets.length; i++){
+        text(planets[i], width/2, pos);
+        pos=pos+100;
+    }
 
 }
 
