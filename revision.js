@@ -11,6 +11,9 @@ function setup (){
 function draw (){
     RectMode(CENTER);
     rect(Xpos, height/2, 100, 25);
-    
+    Xpos += speed;
+    if (Xpos > width + 50) {
+        Xpos = -50;
+    }
 
 }
