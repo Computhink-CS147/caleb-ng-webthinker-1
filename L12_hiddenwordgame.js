@@ -11,8 +11,13 @@ let message = "";
 
 function setup (){
     createCanvas(400,600);
-    
+    guessInput = createInput();
+    guessInput.position(10, 10);
+    submitButton = createButton("Submit");
+    submitButton.position(10, 40);
+    submitButton.mousePressed(checkGuess);
 }
+
 function draw (){
     background(255, 0, 0);
 }
