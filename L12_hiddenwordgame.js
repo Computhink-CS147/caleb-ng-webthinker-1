@@ -1,6 +1,5 @@
 // write your codes her
 function setup (){
-    can
     createCanvas(400,600);
     
 }
