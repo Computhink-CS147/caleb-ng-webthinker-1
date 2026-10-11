@@ -30,6 +30,8 @@ function setup() {
     createCanvas(400, 600);
     pos=50
     textSize(20);
+    textAlign(CENTER);
 }
+
 
 
