@@ -24,5 +24,12 @@
 
 
 let planets = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune];
-let pos
+let pos;
+
+function setup() {
+    createCanvas(400, 600);
+    pos=50
+    textSize(20);
+}
+
 
