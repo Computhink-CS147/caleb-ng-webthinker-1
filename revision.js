@@ -5,6 +5,7 @@ let speed=2;
 function setup (){
     createCanvas(400,600);
     background("red");
+    backgroun
 
 }
 
