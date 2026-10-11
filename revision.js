@@ -13,13 +13,11 @@ function draw (){
        Xpos += speed;
     if (Xpos > width + 50) {
         Xpos = -50;
-        if (Xpos > width-50) {
+    }
+        if (Xpos < 0) {
             speed = speed * -1;
     }
 
+
     rect(Xpos, height/2, 100, 25);
-    if (Xpos < 0+50) {
-        speed = speed * -1;
-    }
-}
 }
