@@ -9,6 +9,7 @@ function setup (){
 }
 
 function draw (){
+    RectMode(CENTER);
     rect(width/2, height/2, 100, 25);
     
 
