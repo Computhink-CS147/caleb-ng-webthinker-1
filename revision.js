@@ -5,7 +5,6 @@ let speed=2;
 function setup (){
     createCanvas(400,600);
     background("red");
-    backgroun
 
 }
 
@@ -15,6 +14,7 @@ function draw (){
     Xpos += speed;
     if (Xpos > width + 50) {
         Xpos = -50;
+        background
     }
 
 }
