@@ -8,7 +8,7 @@ function setup (){
 }
 
 function draw (){
-    bac
+    background(Red);
     rectMode(CENTER);
     rect(Xpos, height/2, 100, 25);
     Xpos += speed;
