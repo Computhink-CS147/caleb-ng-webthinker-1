@@ -327,7 +327,7 @@ function getLegalMoves(board, row, col) {
   return getPseudoMoves(board, row, col)
     .filter((move) => {
       const simulatedBoard = copyBoard(board);
-      applyMove(simulatedBoard, move);
+      applyMove(simulatedBoard, move, false);
       return !isKingInCheck(simulatedBoard, piece.side);
     });
 }
@@ -465,7 +465,7 @@ function addCastlingMoves(board, row, col, king, moves) {
   }
 }
 
-function applyMove(board, move) {
+function applyMove(board, move, updateEnPassant = true) {
   const piece = board[move.from.row][move.from.col];
   if (!piece) return;
 
@@ -486,13 +486,15 @@ function applyMove(board, move) {
   board[move.to.row][move.to.col] = piece;
   board[move.from.row][move.from.col] = null;
   piece.hasMoved = true;
-  enPassantSquare = null;
+  if (updateEnPassant) {
+    enPassantSquare = null;
 
-  if (piece.type === "pawn" && Math.abs(move.to.row - move.from.row) === 2) {
-    enPassantSquare = {
-      row: (move.from.row + move.to.row) / 2,
-      col: move.from.col,
-    };
+    if (piece.type === "pawn" && Math.abs(move.to.row - move.from.row) === 2) {
+      enPassantSquare = {
+        row: (move.from.row + move.to.row) / 2,
+        col: move.from.col,
+      };
+    }
   }
 }
 
