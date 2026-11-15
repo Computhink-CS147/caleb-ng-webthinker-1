@@ -261,11 +261,7 @@ function choosePromotion(mouseXPosition, mouseYPosition) {
 }
 
 function playHumanMove(move) {
-  const playedMove = chessGame.move({
-    from: move.from,
-    to: move.to,
-    promotion: move.promotion || "q",
-  });
+  const playedMove = chessGame.move(moveParameters(move));
   if (!playedMove) {
     selectedSquare = null;
     selectedMoves = [];
@@ -310,11 +306,7 @@ async function playBotTurn(versionAtStart) {
     return;
   }
 
-  const playedMove = chessGame.move({
-    from: move.from,
-    to: move.to,
-    promotion: move.promotion || "q",
-  });
+  const playedMove = chessGame.move(moveParameters(move));
   botThinking = false;
   if (!playedMove) {
     console.error("The chess bot selected a move rejected by chess.js.", move);
@@ -424,15 +416,17 @@ function ensureSearchTime(deadline) {
 
 function copyPositionAfterMove(game, move) {
   const position = new Chess(game.fen());
-  const playedMove = position.move({
-    from: move.from,
-    to: move.to,
-    promotion: move.promotion || "q",
-  });
+  const playedMove = position.move(moveParameters(move));
   if (!playedMove) {
     throw new Error(`Could not apply generated move ${move.from}-${move.to}.`);
   }
   return position;
+}
+
+function moveParameters(move) {
+  const parameters = { from: move.from, to: move.to };
+  if (move.promotion) parameters.promotion = move.promotion;
+  return parameters;
 }
 
 function orderMoves(moves) {
