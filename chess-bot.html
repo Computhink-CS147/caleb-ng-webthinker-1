@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chess vs Bot</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Arial, sans-serif;
+        background: #171923;
+        color: #f7f4ed;
+      }
+
+      body {
+        box-sizing: border-box;
+        min-height: 100vh;
+        margin: 0;
+        padding: 18px;
+        display: flex;
+        justify-content: center;
+      }
+
+      main {
+        width: min(100%, 680px);
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+      }
+
+      #game-status {
+        min-height: 24px;
+        margin: 8px 0 12px;
+        color: #f5d477;
+      }
+
+      #game {
+        width: 100%;
+      }
+
+      canvas {
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 auto;
+        border: 1px solid #596273;
+        border-radius: 8px;
+        touch-action: manipulation;
+      }
+
+      .controls {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 14px 0;
+      }
+
+      button {
+        padding: 10px 16px;
+        border: 0;
+        border-radius: 6px;
+        background: #ffd166;
+        color: #171923;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #ffe09a;
+      }
+
+      button:focus-visible,
+      a:focus-visible {
+        outline: 3px solid #8fc4ff;
+        outline-offset: 3px;
+      }
+
+      a {
+        color: #8fc4ff;
+      }
+
+      [hidden] {
+        display: none !important;
+      }
+
+      @media (max-width: 520px) {
+        body {
+          padding: 10px;
+        }
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5play@3.26.5/planck.min.js"></script>
+    <script>window._p5play_gtagged = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/p5play@3.26.5/p5play.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <script src="chess-bot.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Chess vs Bot</h1>
+      <p id="game-status" aria-live="polite">Start a game and choose a difficulty.</p>
+      <div id="game"></div>
+      <div class="controls">
+        <button id="start-button" type="button">Start Game</button>
+        <button id="new-game-button" type="button" hidden>New Game</button>
+      </div>
+      <div id="difficulty-picker" class="controls" hidden aria-label="Choose bot difficulty">
+        <button type="button" data-difficulty="beginner">Beginner</button>
+        <button type="button" data-difficulty="moderate">Moderate</button>
+        <button type="button" data-difficulty="advanced">Advanced</button>
+      </div>
+      <p>Click a white piece, then a highlighted square. Press R to resign.</p>
+      <p><a href="index.html">Back to homepage</a></p>
+    </main>
+  </body>
+</html>
