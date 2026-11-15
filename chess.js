@@ -37,6 +37,7 @@ let statusMessage;
 
 function setup() {
   new Canvas(CANVAS_SIZE, CANVAS_SIZE + 40);
+  document.getElementById("game").appendChild(document.querySelector("canvas"));
   textFont("Georgia");
   startNewGame();
 }
@@ -260,7 +261,12 @@ function handleClick(mouseXPosition, mouseYPosition) {
 function handlePromotionClick(mouseXPosition, mouseYPosition) {
   if (mouseYPosition < 336 || mouseYPosition > 432) return;
   const index = Math.floor((mouseXPosition - 132) / 116);
-  if (index >= 0 && index < PROMOTION_TYPES.length) {
+  const cardLeft = 132 + index * 116;
+  if (
+    index >= 0 &&
+    index < PROMOTION_TYPES.length &&
+    mouseXPosition <= cardLeft + 96
+  ) {
     finishPromotion(PROMOTION_TYPES[index]);
   }
 }
