@@ -23,10 +23,22 @@ let gameVersion = 0;
 let statusElement;
 
 function setup() {
+  statusElement = document.getElementById("game-status");
+  if (typeof Canvas !== "function") {
+    document.getElementById("start-button").disabled = true;
+    setStatus("p5play could not be loaded. Check your connection and reload.");
+    return;
+  }
+
   new Canvas(BOARD_PIXELS, BOARD_PIXELS);
   document.getElementById("game").appendChild(document.querySelector("canvas"));
   textFont("Georgia");
-  statusElement = document.getElementById("game-status");
+
+  if (typeof Chess !== "function") {
+    document.getElementById("start-button").disabled = true;
+    setStatus("The chess rules library could not be loaded. Check your connection and reload.");
+    return;
+  }
 
   document.getElementById("start-button").addEventListener("click", showDifficultyPicker);
   document.getElementById("new-game-button").addEventListener("click", handleNewGame);
@@ -62,6 +74,11 @@ function showDifficultyPicker() {
 }
 
 function startGame(chosenDifficulty) {
+  if (typeof Chess !== "function") {
+    setStatus("The chess rules library could not be loaded. Check your connection and reload.");
+    return;
+  }
+
   gameVersion += 1;
   chessGame = new Chess();
   difficulty = chosenDifficulty;
