@@ -595,7 +595,7 @@ function oppositeSide(side) {
 function keyPressed() {
   if (promotionChoice && key >= "1" && key <= "4") {
     finishPromotion(PROMOTION_TYPES[Number(key) - 1]);
-  } else if (key === "r" || key === "R") {
+  } else if (!gameResult && (key === "r" || key === "R")) {
     resignGame();
   }
 }
